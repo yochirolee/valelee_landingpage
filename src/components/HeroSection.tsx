@@ -110,11 +110,11 @@ export default function HeroSection({ dict }: { dict: Dict }) {
                   {item.name}
                 </a>
               ))}
-              <a href="tel:17854519573" className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-800 hover:bg-slate-100">
+              <a href="tel:17864509223" className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-800 hover:bg-slate-100">
                 {dict.hero.quote}
               </a>
-              <a href="mailto:leidivioleta@gmail.com" className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-800 hover:bg-slate-100">
-                leidivioleta@gmail.com
+              <a href="mailto:yleecruz@gmail.com" className="block rounded-lg px-3 py-2 text-base font-semibold text-slate-800 hover:bg-slate-100">
+                yleecruz@gmail.com
               </a>
             </div>
           </DialogPanel>

@@ -11,12 +11,12 @@ const siteDetails = {
 
 const footerDetails = {
   Address: "Fontainebleau Blvd, Miami, FL",
-  email: "leidivioleta@gmail.com",
-  telephone: "+1 (785) 451-9573",
+  email: "yleecruz@gmail.com",
+  telephone: "+1 (786) 450-9223",
   socials: {
-    Facebook: "https://www.facebook.com/tu-pagina",
-    Instagram: "https://www.instagram.com/tu-cuenta",
-    LinkedIn: "https://www.linkedin.com/company/valelee",
+    //Facebook: "https://www.facebook.com/tu-pagina",
+    //Instagram: "https://www.instagram.com/tu-cuenta",
+    //LinkedIn: "https://www.linkedin.com/company/valelee",
   } as Record<string, string>,
 };
 

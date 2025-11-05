@@ -68,10 +68,10 @@ export default function AboutSection({ dict }: { dict: Dict }) {
         {/* Contact band */}
         <div className="mt-10 sm:mt-14">
           <a
-            href="tel:17854519573"
+            href="tel:17864509223"
             className="ml-3 inline-flex items-center rounded-xl border border-white/70 px-5 py-3 text-white font-semibold hover:bg-white/10"
           >
-            Let&apos;s talk now +1 (785) 451-9573
+            Let&apos;s talk now +1 (786) 450-9223
           </a>
         </div>
       </motion.div>
