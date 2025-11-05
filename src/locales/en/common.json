@@ -7,65 +7,65 @@
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Professional Cleaning Services You Can Trust",
-    "subtext": "Based in Louisville, Nika Llc provides residential and commercial cleaning with eco-friendly products, meticulous attention to detail, and guaranteed punctuality.",
-    "quote": "Get Your Free Quote",
+    "headline": "Web design and online stores that convert.",
+    "subtext": "We build fast, secure, SEO-optimized websites and e-commerce tailored to your business goals.",
+    "quote": "Book a Free Consult",
     "view": "Discover Our Services"
   },
   "offerSection": {
-    "headline": "Our",
-    "headline2": "Work"
+    "headline": "Trusted",
+    "headline2": "by"
   },
   "socialProof": {
-    "title": "Explore our awesome",
+    "title": "Explore our",
     "title2": "Services",
     "services": [
       {
-        "title": "Residential Cleaning",
-        "description": "Comprehensive services for homes: bathrooms, kitchens, living rooms, and more."
+        "title": "Next.js Websites",
+        "description": "High-performance, SEO-ready websites with modern UI and clean code."
       },
       {
-        "title": "Commercial Cleaning",
-        "description": "Spotless offices, stores, and corporate spaces."
+        "title": "Shopify Stores",
+        "description": "Theme setup/customization, payments, shipping, taxes, and apps."
       },
       {
-        "title": "Window Cleaning",
-        "description": "Crystal-clear glass, free of spots and streaks."
+        "title": "Express Backends & APIs",
+        "description": "Secure REST APIs with JWT, PostgreSQL schemas, and admin tools."
       },
       {
-        "title": "Deep Cleaning",
-        "description": "Complete disinfection and detailing for an extreme clean."
+        "title": "Payments Integration",
+        "description": "Stripe, BMSPay, PayPal (optional), receipts & notifications."
       },
       {
-        "title": "Bathroom Cleaning",
-        "description": "Guaranteed hygiene in bathrooms and restrooms."
+        "title": "Internationalization",
+        "description": "Bilingual content (EN/ES), Shopify Markets, and localized SEO."
       },
       {
-        "title": "Carpet Vacuuming",
-        "description": "Thorough removal of dust, mites, and embedded dirt."
+        "title": "SEO & Speed",
+        "description": "Technical SEO, Core Web Vitals, image optimization, analytics."
       },
       {
-        "title": "Eco-Friendly Cleaning",
-        "description": "Using products that are safe for the environment."
+        "title": "Ongoing Care",
+        "description": "Monitoring, updates, and small improvements month over month."
       }
     ]
   },
   "whyChooseUs": {
     "title": "Why Choose Us?",
-    "headline": "Exceptional Cleaning, Every Time",
-    "description": "At Nika Llc, we provide professional cleaning services in Louisville, ensuring spotless homes and businesses with personalized care and unmatched attention to detail.",
+    "headline": "Performance, Clarity, and Results",
+    "description": "We build fast, maintainable sites and stores with a modern stack. Clear scope, predictable delivery, and measurable outcomes.",
     "features": [
       {
-        "name": "Expert Cleaning Team",
-        "description": "Our trained professionals use top-quality products and techniques for outstanding results."
+        "name": "Performance-first",
+        "description": "Lighthouse 90+, Core Web Vitals, caching, and image pipelines."
       },
       {
-        "name": "Thorough & Reliable Service",
-        "description": "We clean every corner meticulously, leaving your space fresh, sanitized, and inviting."
+        "name": "Conversion-oriented",
+        "description": "Clean UX, clear CTAs, analytics, and A/B testing readiness."
       },
       {
-        "name": "Customized Cleaning Plans",
-        "description": "Flexible scheduling and personalized packages tailored to fit your unique needs and budget."
+        "name": "Maintainable by design",
+        "description": "Modular code, documentation, and handoff training for your team."
       }
     ]
   },
@@ -74,41 +74,33 @@
     "title2": "It Works",
     "steps": [
       {
-        "title": "1. Request Your Free Quote",
-        "description": "Tell us about your residential or commercial cleaning needs — get a no-obligation estimate."
+        "title": "1. Discovery",
+        "description": "Goals, scope, timeline, and a fixed proposal."
       },
       {
-        "title": "2. Schedule Your Service",
-        "description": "Choose the date and time that works best for you — we’ll fit into your schedule."
+        "title": "2. Prototype",
+        "description": "Wireframes and design system to align quickly."
       },
       {
-        "title": "3. Enjoy a Spotless Space",
-        "description": "Our team arrives on time, uses eco-friendly products, and leaves your home or office sparkling clean."
+        "title": "3. Build",
+        "description": "Next.js + Tailwind + Express/Shopify with weekly check-ins."
+      },
+      {
+        "title": "4. Launch & Care",
+        "description": "QA, SEO, analytics, handoff, and a care plan if you wish."
       }
     ]
   },
   "about": {
     "title": "About Us",
     "description": "At ",
-    "description2": "Nika Llc",
-    "description3": " we provide professional cleaning services with dedication, attention to detail, and reliability. With years of experience serving residential and commercial clients in Louisville, we are committed to creating spotless and healthy environments for your home or business. From deep cleans to regular maintenance, our team uses eco-friendly products and efficient techniques to ensure your satisfaction. Contact us today and see how we can transform your space with top-quality cleaning.",
+    "description2": "Valelee LLC",
+    "description3": " we build fast, secure, and bilingual (EN/ES) web experiences in Miami, FL. We combine Next.js, Tailwind, Express, PostgreSQL, and Shopify to launch quickly and grow sustainably. From simple websites to robust online stores and custom backends, we focus on performance, SEO, and maintainability.",
     "stats": [
-      {
-        "name": "Satisfied Clients",
-        "value": "300+"
-      },
-      {
-        "name": "Completed Services",
-        "value": "250+"
-      },
-      {
-        "name": "Regular Cleanings",
-        "value": "150+"
-      },
-      {
-        "name": "Years of Experience",
-        "value": "8+"
-      }
+      { "name": "Projects Launched", "value": "35+" },
+      { "name": "E-commerce Builds", "value": "20+" },
+      { "name": "Avg. LCP (Home)", "value": "≤1.8s" },
+      { "name": "Stack Expertise", "value": "Next/Shopify/Express" }
     ]
   },
   "faq": {
@@ -117,47 +109,35 @@
     "title2": "Asked Questions",
     "questions": [
       {
-        "q": "How can I request a free quote?",
-        "a": "You can request a free quote by calling (502) 533-8342."
+        "q": "How long does a project take?",
+        "a": "Most sites: 2–4 weeks. Shopify or custom backends: 3–6 weeks depending on scope."
       },
       {
-        "q": "Do you serve my area?",
-        "a": "We proudly serve Louisville and nearby areas. Contact us to confirm availability in your location."
+        "q": "Do you provide bilingual sites?",
+        "a": "Yes. We deliver EN/ES content structure and localized SEO essentials."
       },
       {
-        "q": "How much will I pay to hire a cleaner?",
-        "a": "Pricing varies based on the size of your space and the type of cleaning. Contact us for a personalized quote."
+        "q": "What about payments and shipping?",
+        "a": "We configure Stripe/BMSPay, taxes, and shipping rules or carrier rates."
       },
       {
-        "q": "Can a cleaner come today?",
-        "a": "Same-day service may be available depending on the schedule. Please contact us to check availability."
+        "q": "What is the payment schedule?",
+        "a": "Typically 50% upfront and 50% at launch. Milestone options available."
       },
       {
-        "q": "Do I have to be there during the cleaning?",
-        "a": "You don’t have to be present, but we recommend being available at the beginning or end to discuss any specifics."
-      },
-      {
-        "q": "Do I need to provide the cleaning supplies?",
-        "a": "It’s optional! Most cleaners bring their own supplies. If you have preferences (e.g., no bleach or only organic products), please mention them in your request."
-      },
-      {
-        "q": "What is the difference between a deep clean and a standard clean?",
-        "a": "A standard clean is regular maintenance. A deep clean is more thorough and targets hard-to-reach areas, like under appliances or behind furniture."
-      },
-      {
-        "q": "How long does carpet cleaning take?",
-        "a": "It usually takes 1 to 3 hours per room. Drying time ranges from 6 to 12 hours, but it's not included in the service duration."
+        "q": "Can you maintain our site after launch?",
+        "a": "Yes. We offer care plans with monitoring, updates, and small improvements."
       }
     ]
   },
   "secondaryCTA": {
-    "title1": "Make Your Home",
-    "title2": "Sparkle",
-    "description": "Professional cleaning that fits your schedule and leaves your space spotless — all at a fair price.",
-    "button": "Book My Cleaning Today"
+    "title1": "Ready to",
+    "title2": "Launch?",
+    "description": "Let’s build a fast, modern site or store tailored to your goals. Free discovery call.",
+    "button": "Start a Project"
   },
   "footer": {
-    "subheading": "We make your home or office shine with professional and reliable cleaning services.",
+    "subheading": "Websites and online stores with Next.js, Tailwind, Express, and Shopify.",
     "quickLinksTitle": "Quick Links",
     "addressLabel": "Address",
     "hoursLabel": "Business Hours",
@@ -165,11 +145,11 @@
     "phoneLabel": "Phone",
     "contactTitle": "Contact Us",
     "copyright": "All rights reserved.",
-    "hours": "Monday - Sunday: Total Availability"
+    "hours": "Mon–Fri: 9am–6pm ET"
   },
   "checkout": {
-    "title": "Checkout Now",
-    "description": "Review your order before completing the payment.",
+    "title": "Checkout",
+    "description": "Review your order before completing payment.",
     "product": "Product",
     "quantity": "Quantity",
     "total": "Total",

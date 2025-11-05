@@ -13,66 +13,78 @@ type Dict = {
   secondaryCTA: SecondaryCTADict
 }
 
-type Props = {
-  dict: Dict
-}
-
-export default function SecondaryCTA({ dict }: Props) {
+export default function SecondaryCTA({ dict }: { dict: Dict }) {
   return (
-    <div className="bg-white">
+    <section aria-labelledby="cta-heading" className="bg-[#F6F3EE]">
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-[#0078A0] px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+        <div className="relative isolate overflow-hidden px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:items-center lg:gap-x-20 lg:px-24 lg:pt-0
+                        bg-gradient-to-br from-amber-50 via-stone-50 to-amber-100">
 
-          {/* Decoración SVG radial sutil */}
+          {/* Decoración radial sutil en tonos cálidos */}
           <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
-            className="absolute top-1/2 left-1/2 -z-10 size-[36rem] -translate-y-1/2 -translate-x-1/2 opacity-30"
+            className="pointer-events-none absolute top-1/2 left-1/2 -z-10 size-[36rem] -translate-y-1/2 -translate-x-1/2 opacity-30"
           >
-            <circle r={512} cx={512} cy={512} fill="white" fillOpacity="0.15" />
+            <circle r={512} cx={512} cy={512} fill="#FDE68A" fillOpacity="0.18" />
           </svg>
+
+          {/* Ruido/grano muy suave para textura (opcional) */}
+          <div className="pointer-events-none absolute inset-0 -z-10 opacity-[0.06] [background:radial-gradient(circle_at_50%_50%,_#000_0,_transparent_60%)]" />
 
           {/* Texto */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left"
           >
-            <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl">
+            <h2 id="cta-heading" className="text-4xl sm:text-5xl font-semibold tracking-tight text-slate-900">
               {dict.secondaryCTA.title1}{' '}
-              <span className="text-[#1CA8E3]">{dict.secondaryCTA.title2}</span>
+              <span className="text-amber-700">{dict.secondaryCTA.title2}</span>
             </h2>
-            <p className="mt-8 text-lg font-medium text-[#E0F7FA] leading-relaxed">
+            <p className="mt-6 sm:mt-8 text-lg font-medium text-slate-700 leading-relaxed">
               {dict.secondaryCTA.description}
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+
+            <div className="mt-8 sm:mt-10 flex items-center justify-center gap-3 lg:justify-start">
               <a
-                href="tel:5025338342"
-                className="rounded-md bg-white px-5 py-3 text-sm font-semibold text-[#0078A0] shadow-md hover:bg-yellow-200 transition"
+                href="tel:17854519573"
+                className="rounded-md bg-amber-600 px-5 py-3 text-sm font-semibold text-white shadow-md hover:bg-amber-700 active:bg-amber-800 transition"
               >
                 {dict.secondaryCTA.button}
+              </a>
+              <a
+                href="mailto:leidivioleta@gmail.com"
+                className="rounded-md border border-slate-900/15 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-900/5 transition"
+              >
+                Email Us
               </a>
             </div>
           </motion.div>
 
           {/* Imagen */}
           <motion.div
-            initial={{ scale: 0.95, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1, ease: 'easeOut' }}
+            initial={{ scale: 0.96, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.9, ease: 'easeOut' }}
             className="relative mt-12 w-full h-64 sm:h-72 md:h-80 lg:h-96 xl:h-[28rem]"
           >
             <img
-              alt="Cleaning Services Sarasota"
-              src="/clean-house1.jpg"
+              alt="Valelee LLC — Next.js, Express y Shopify"
+              src="/call2.png"
               width={1824}
               height={1080}
-              className="absolute inset-0 w-full h-full object-cover rounded-md shadow-lg ring-1 ring-white/20"
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover rounded-md shadow-lg ring-1 ring-slate-900/10"
             />
+            {/* Vignette sutil para integración con el fondo */}
+            <div className="pointer-events-none absolute inset-0 rounded-md bg-gradient-to-tr from-black/5 via-transparent to-black/0" />
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

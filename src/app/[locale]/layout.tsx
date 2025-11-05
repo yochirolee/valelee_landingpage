@@ -11,94 +11,82 @@ export async function generateMetadata(props: {
 }): Promise<Metadata> {
   const { locale } = await props.params;
 
-  const metadataByLocale = {
-    es: {
-      title: "Servicios de Limpieza en Louisville | Nika Llc",
-      description:
-        "Empresa de limpieza profesional en Louisville, KY. Ofrecemos limpieza profunda, mantenimiento del hogar, oficinas y más. ¡Calidad, confianza y eficiencia!",
-      keywords: [
-        "servicios de limpieza Louisville",
-        "limpieza profesional Louisville",
-        "limpieza residencial Louisville",
-        "limpieza comercial Louisville",
-        "limpieza profunda Louisville",
-        "empresa de limpieza en Kentucky",
-        "mantenimiento de oficinas Louisville",
-        "Nika Llc",
-        "limpieza confiable Louisville"
+  const baseCommon = {
+    icons: {
+      icon: [
+        { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/favicon.ico" },
       ],
-      alternates: {
-        languages: {
-          en: "/en",
-        },
-      },
+      apple: [{ url: "/favicon-180x180.png", sizes: "180x180", type: "image/png" }],
+      other: [{ rel: "mask-icon", url: "/maskable-icon-512.png", color: "#0078A0" }],
+    },
+    manifest: "/site.webmanifest",
+    themeColor: "#ffffff",
+  } satisfies Partial<Metadata>;
+
+  const metadataByLocale: Record<"es" | "en", Metadata> = {
+    es: {
+      title: "Sitios y Tiendas Online en Miami | Valelee LLC",
+      description:
+        "Desarrollamos sitios web y tiendas Shopify rápidos y listos para SEO con Next.js, Tailwind, Express y PostgreSQL. Consultoría y soporte en Miami, alcance global.",
+      keywords: [
+        "sitios web Miami",
+        "tiendas online Shopify Miami",
+        "Next.js Tailwind",
+        "Express APIs",
+        "desarrollo web Miami",
+        "SEO técnico",
+      ],
+      alternates: { languages: { en: "/en" } },
       openGraph: {
-        title: "Servicios de Limpieza en Louisville | Nika Llc",
+        title: "Sitios y Tiendas Online en Miami | Valelee LLC",
         description:
-          "Empresa de limpieza profesional en Louisville, KY. Ofrecemos limpieza profunda, mantenimiento del hogar, oficinas y más.",
-        url: "https://nikallc.vercel.app/",
-        siteName: "Nika Llc",
-        images: [
-          {
-            url: "https://nikallc.vercel.app/og.jpg",
-            width: 1200,
-            height: 630,
-          },
-        ],
+          "Webs y e-commerce con Next.js, Tailwind, Express y Shopify. Rendimiento, SEO y mantenibilidad.",
+        url: "https://valeleyoursite.com/",
+        siteName: "Valelee LLC",
+        images: [{ url: "/og.jpg", width: 1200, height: 630 }],
         locale: "es_ES",
         type: "website",
       },
       twitter: {
         card: "summary_large_image",
-        title: "Servicios de Limpieza en Louisville | Nika Llc",
-        description:
-          "Empresa de limpieza profesional en Louisville, KY. Ofrecemos limpieza profunda, mantenimiento del hogar, oficinas y más.",
-        images: ["https://nikallc.vercel.app/og.jpg"],
+        title: "Sitios y Tiendas Online en Miami | Valelee LLC",
+        description: "Webs y e-commerce con Next.js, Tailwind, Express y Shopify.",
+        images: ["/og.jpg"],
       },
+      ...baseCommon,
     },
     en: {
-      title: "Cleaning Services in Louisville | Nika Llc",
+      title: "Next.js & Shopify Websites in Miami | Valelee LLC",
       description:
-        "Professional cleaning company in Louisville, KY offering deep cleaning, home and office maintenance, and reliable solutions. Quality and trust guaranteed!",
+        "We build fast, SEO-ready websites and Shopify stores with Next.js, Tailwind, Express, and PostgreSQL. Based in Miami, serving clients worldwide.",
       keywords: [
-        "cleaning services Louisville",
-        "professional cleaning Louisville",
-        "residential cleaning Louisville",
-        "commercial cleaning Louisville",
-        "deep cleaning Louisville",
-        "cleaning company Kentucky",
-        "office maintenance Louisville",
-        "Nika Llc",
-        "reliable cleaning Louisville"
+        "next.js websites miami",
+        "shopify stores miami",
+        "tailwind css",
+        "express api",
+        "web development miami",
+        "technical seo",
       ],
-      alternates: {
-        languages: {
-          es: "/",
-        },
-      },
+      alternates: { languages: { es: "/" } },
       openGraph: {
-        title: "Cleaning Services in Louisville | Nika Llc",
+        title: "Next.js & Shopify Websites in Miami | Valelee LLC",
         description:
-          "Professional cleaning company in Louisville, KY offering deep cleaning, home and office maintenance, and reliable solutions.",
-        url: "https://nikallc.vercel.app/",
-        siteName: "Nika Llc",
-        images: [
-          {
-            url: "https://nikallc.vercel.app/og.jpg",
-            width: 1200,
-            height: 630,
-          },
-        ],
+          "Fast, secure, SEO-ready websites and online stores. Next.js, Tailwind, Express, Shopify.",
+        url: "https://valeleyoursite.com/en",
+        siteName: "Valelee LLC",
+        images: [{ url: "/og.jpg", width: 1200, height: 630 }],
         locale: "en_US",
         type: "website",
       },
       twitter: {
         card: "summary_large_image",
-        title: "Cleaning Services in Louisville | Nika Llc",
-        description:
-          "Professional cleaning company in Louisville, KY offering deep cleaning, home and office maintenance, and reliable solutions.",
-        images: ["https://nikallc.vercel.app/og.jpg"],
+        title: "Next.js & Shopify Websites in Miami | Valelee LLC",
+        description: "Next.js, Tailwind, Express, Shopify — performance and clarity.",
+        images: ["/og.jpg"],
       },
+      ...baseCommon,
     },
   };
 
@@ -110,14 +98,14 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; // params es una promesa
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params; // espera la promesa
+  const { locale } = await params;
 
   return (
     <html lang={locale}>
       <head>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-32x32.png" />
+        {/* Next inyecta los íconos y el manifest desde generateMetadata */}
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
       </head>

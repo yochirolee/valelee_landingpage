@@ -20,28 +20,9 @@ export type Dict = {
   faq: { label: string; title1: string; title2: string; questions: { q: string; a: string; }[] }
   secondaryCTA: { title1: string; title2: string; description: string; button: string }
   footer: { subheading: string; quickLinksTitle: string; addressLabel: string; hoursLabel: string; emailLabel: string; phoneLabel: string; contactTitle: string; copyright: string; hours: string }
-
-  checkout: {
-    title: string;
-    description: string;
-    product: string;
-    quantity: string;
-    total: string;
-    pay: string;
-  };
-
-  success: {
-    title: string;
-    message: string;
-    continue: string;
-  };
-
-  error: {
-    title: string;
-    message: string;
-    retry: string;
-    home: string;
-  };
+  checkout: { title: string; description: string; product: string; quantity: string; total: string; pay: string; }
+  success: { title: string; message: string; continue: string; }
+  error: { title: string; message: string; retry: string; home: string; }
 }
 
 export default async function Home({

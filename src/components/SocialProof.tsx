@@ -1,16 +1,16 @@
 'use client'
 
-import {
-  SprayCan,
-  Home,
-  Sparkles,
-  Building,
-  Leaf,
-  ShowerHead,
-} from 'lucide-react'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { GiVacuumCleaner } from "react-icons/gi"
+import {
+  Laptop,
+  Store,
+  Server,
+  CreditCard,
+  Globe,
+  Rocket,
+  SearchCheck
+} from 'lucide-react'
 
 type Service = {
   title: string
@@ -30,53 +30,54 @@ const cardVariants = {
   onscreen: {
     opacity: 1,
     y: 0,
-    transition: {
-      type: 'spring' as const,
-      stiffness: 80,
-      damping: 18,
-    },
+    transition: { type: 'spring' as const, stiffness: 80, damping: 18 },
   },
 }
 
 export default function OurServices({ dict }: { dict: Dict }) {
   const services = dict.socialProof.services
 
+  // Íconos alineados a agencia web: Next.js sites, Shopify, Express APIs, Pagos, i18n/Markets, Lanzamiento, SEO
   const icons = [
-    <Home key="spray" className="h-6 w-6" />,
-    <Building key="broom" className="h-6 w-6" />,
-    <SprayCan key="sparkles" className="h-6 w-6" />,
-    <Sparkles key="bath" className="h-6 w-6" />,
-    <ShowerHead key="shirt" className="h-6 w-6" />,
-    <GiVacuumCleaner key="window" className="h-6 w-6" />,
-    <Leaf key="washer" className="h-6 w-6" />,
+    <Laptop key="laptop" className="h-6 w-6" aria-hidden="true" />,
+    <Store key="store" className="h-6 w-6" aria-hidden="true" />,
+    <Server key="server" className="h-6 w-6" aria-hidden="true" />,
+    <CreditCard key="card" className="h-6 w-6" aria-hidden="true" />,
+    <Globe key="globe" className="h-6 w-6" aria-hidden="true" />,
+    <Rocket key="rocket" className="h-6 w-6" aria-hidden="true" />,
+    <SearchCheck key="seo" className="h-6 w-6" aria-hidden="true" />,
   ]
 
   return (
-    <section id="services" className="bg-white">
+    <section id="services" className="bg-[#FDFBF7]" aria-labelledby="services-heading">
       <div className="container mx-auto px-6 py-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-center text-[#1F2937] capitalize">
+        <h2
+          id="services-heading"
+          className="text-3xl md:text-4xl font-bold text-center text-[#1F2937] capitalize"
+        >
           {dict.socialProof.title}{' '}
-          <span className="text-[#0078A0]">{dict.socialProof.title2}</span>
-        </h1>
+          <span className="text-amber-700">{dict.socialProof.title2}</span>
+        </h2>
 
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
           {services.map((service, index) => (
-            <motion.div
+            <motion.article
               key={index}
-              className="flex flex-col items-center rounded-2xl bg-[#E9F8FD] p-6 text-center shadow-md hover:shadow-lg transition"
+              className="flex flex-col items-center rounded-2xl bg-white p-6 text-center shadow-md hover:shadow-lg transition"
               initial="offscreen"
               whileInView="onscreen"
               viewport={{ once: true, amount: 0.2 }}
               variants={cardVariants}
+              aria-label={service.title}
             >
-              <span className="inline-block rounded-full bg-[#E9F8FD] p-3 text-[#0078A0]">
+              <span className="inline-flex rounded-full bg-white/70 p-3 text-[#0078A0] ring-1 ring-white/60">
                 {icons[index % icons.length]}
               </span>
-              <h2 className="mt-3 text-lg md:text-xl font-semibold text-[#374151]">
+              <h3 className="mt-3 text-lg md:text-xl font-semibold text-[#374151]">
                 {service.title}
-              </h2>
-              <p className="mt-2 text-[#6B7280]">{service.description}</p>
-            </motion.div>
+              </h3>
+              <p className="mt-2 text-[#4B5563] leading-relaxed">{service.description}</p>
+            </motion.article>
           ))}
         </div>
       </div>

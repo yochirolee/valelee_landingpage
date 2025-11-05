@@ -7,65 +7,65 @@
     "contact": "Contáctanos"
   },
   "hero": {
-    "headline": "Servicios de Limpieza Profesionales en los que Puedes Confiar",
-    "subtext": "En Louisville, Nika Llc ofrece limpieza residencial y comercial con enfoque ecológico, atención al detalle y puntualidad garantizada.",
-    "quote": "Solicita tu Cotización Gratis",
+    "headline": "Diseño web y tiendas online que venden.",
+    "subtext": "Creamos páginas web y e-commerce rápidos, seguros y optimizados para SEO, hechos a medida para tu negocio.",
+    "quote": "Agenda una Consulta Gratis",
     "view": "Descubre Nuestros Servicios"
   },
   "offerSection": {
-    "headline": "Nuestro",
-    "headline2": "Trabajo"
+    "headline": "Confían en",
+    "headline2": "nosotros"
   },
   "socialProof": {
-    "title": "Explora nuestros increíbles",
+    "title": "Explora nuestros",
     "title2": "Servicios",
     "services": [
       {
-        "title": "Limpieza Residencial",
-        "description": "Servicios completos para hogares: baños, cocinas, salas y más."
+        "title": "Sitios con Next.js",
+        "description": "Webs de alto rendimiento, listas para SEO y con UI moderna."
       },
       {
-        "title": "Limpieza Comercial",
-        "description": "Oficinas, tiendas y espacios corporativos impecables."
+        "title": "Tiendas Shopify",
+        "description": "Tema, pagos, envíos, impuestos y apps listas para vender."
       },
       {
-        "title": "Limpieza de Ventanas",
-        "description": "Vidrios brillantes, sin manchas ni rayas."
+        "title": "Backends y APIs con Express",
+        "description": "APIs seguras con JWT, PostgreSQL y paneles de administración."
       },
       {
-        "title": "Limpieza Profunda",
-        "description": "Desinfección y detallado completo para una limpieza extrema."
+        "title": "Integración de Pagos",
+        "description": "Stripe, BMSPay, PayPal (opcional), comprobantes y notificaciones."
       },
       {
-        "title": "Limpieza de Baños",
-        "description": "Higiene garantizada en baños y sanitarios."
+        "title": "Internacionalización",
+        "description": "Contenido EN/ES, Shopify Markets y SEO localizado."
       },
       {
-        "title": "Aspirado de Alfombras",
-        "description": "Eliminación de polvo, ácaros y suciedad en profundidad."
+        "title": "SEO y Velocidad",
+        "description": "SEO técnico, Core Web Vitals, optimización de imágenes y analítica."
       },
       {
-        "title": "Limpieza Ecológica",
-        "description": "Uso de productos amigables con el medio ambiente."
+        "title": "Soporte Continuo",
+        "description": "Monitoreo, actualizaciones y mejoras mensuales."
       }
     ]
   },
   "whyChooseUs": {
     "title": "¿Por qué elegirnos?",
-    "headline": "Limpieza excepcional, cada vez",
-    "description": "En Nika Llc ofrecemos servicios profesionales de limpieza en Louisville, garantizando hogares y negocios impecables con atención personalizada y un cuidado inigualable en cada detalle.",
+    "headline": "Rendimiento, Claridad y Resultados",
+    "description": "Construimos sitios y tiendas rápidas y mantenibles con un stack moderno. Alcance claro, entregas predecibles y resultados medibles.",
     "features": [
       {
-        "name": "Equipo de limpieza experto",
-        "description": "Nuestros profesionales capacitados utilizan productos y técnicas de alta calidad para resultados excepcionales."
+        "name": "Rendimiento primero",
+        "description": "Lighthouse 90+, Core Web Vitals, caché y pipelines de imágenes."
       },
       {
-        "name": "Servicio minucioso y confiable",
-        "description": "Limpiamos cada rincón con esmero, dejando tu espacio fresco, desinfectado y acogedor."
+        "name": "Enfoque en conversión",
+        "description": "UX clara, CTAs definidos, analítica y base para A/B testing."
       },
       {
-        "name": "Planes de limpieza personalizados",
-        "description": "Horarios flexibles y paquetes adaptados a tus necesidades y presupuesto."
+        "name": "Mantenible por diseño",
+        "description": "Código modular, documentación y handoff para tu equipo."
       }
     ]
   },
@@ -74,29 +74,33 @@
     "title2": "Funciona",
     "steps": [
       {
-        "title": "1. Solicita tu Cotización Gratis",
-        "description": "Cuéntanos tus necesidades de limpieza — residencial o comercial — y recibe un presupuesto sin compromiso."
+        "title": "1. Descubrimiento",
+        "description": "Metas, alcance, tiempos y propuesta fija."
       },
       {
-        "title": "2. Programa tu Servicio",
-        "description": "Elige día y hora que más te convenga; nos adaptamos a tu agenda para mayor comodidad."
+        "title": "2. Prototipo",
+        "description": "Wireframes y sistema de diseño para alinear rápido."
       },
       {
-        "title": "3. Disfruta de un Espacio Impecable",
-        "description": "Nuestro equipo llega puntual, trabaja con productos ecológicos y deja tu hogar u oficina reluciente."
+        "title": "3. Desarrollo",
+        "description": "Next.js + Tailwind + Express/Shopify con avances semanales."
+      },
+      {
+        "title": "4. Lanzamiento y Soporte",
+        "description": "QA, SEO, analítica, handoff y plan de cuidado si lo deseas."
       }
     ]
   },
   "about": {
     "title": "Acerca de Nosotros",
     "description": "En ",
-    "description2": "Nika Llc",
-    "description3": " ofrecemos servicios de limpieza profesional con compromiso, detalle y confianza. Con años de experiencia en limpieza residencial y comercial en Louisville, nos dedicamos a crear espacios impecables y saludables para ti y tu familia o negocio. Desde limpiezas profundas hasta mantenimiento regular, nuestro equipo trabaja con productos ecológicos y técnicas eficientes para garantizar tu satisfacción. Contáctanos hoy y descubre cómo podemos transformar tu espacio con limpieza de alta calidad.",
+    "description2": "Valelee LLC",
+    "description3": " creamos experiencias web rápidas, seguras y bilingües (EN/ES) desde Miami, FL. Combinamos Next.js, Tailwind, Express, PostgreSQL y Shopify para lanzar rápido y crecer con solidez. Desde sitios simples hasta tiendas robustas y backends a medida, priorizamos rendimiento, SEO y mantenibilidad.",
     "stats": [
-      { "name": "Clientes Satisfechos", "value": "300+" },
-      { "name": "Servicios Completados", "value": "250+" },
-      { "name": "Limpiezas Regulares", "value": "150+" },
-      { "name": "Años de Experiencia", "value": "8+" }
+      { "name": "Proyectos Lanzados", "value": "35+" },
+      { "name": "Tiendas E-commerce", "value": "20+" },
+      { "name": "LCP promedio (Home)", "value": "≤1.8s" },
+      { "name": "Stack", "value": "Next/Shopify/Express" }
     ]
   },
   "faq": {
@@ -105,72 +109,60 @@
     "title2": "Frecuentes",
     "questions": [
       {
-        "q": "¿Cómo puedo solicitar una cotización gratuita?",
-        "a": "Puedes solicitar una cotización gratuita llamando al (502) 533-8342."
+        "q": "¿Cuánto tarda un proyecto?",
+        "a": "Sitios: 2–4 semanas. Shopify o backends a medida: 3–6 semanas según alcance."
       },
       {
-        "q": "¿Atienden en mi área?",
-        "a": "Servimos con orgullo Louisville y las áreas cercanas. Contáctanos para confirmar disponibilidad en tu ubicación."
+        "q": "¿Entregan sitios bilingües?",
+        "a": "Sí. Estructura EN/ES y SEO localizado esencial."
       },
       {
-        "q": "¿Cuánto cuesta contratar a una persona para limpiar?",
-        "a": "El precio varía según el tamaño del espacio y el tipo de limpieza. Contáctanos para una cotización personalizada."
+        "q": "¿Configuran pagos y envíos?",
+        "a": "Sí. Stripe/BMSPay, impuestos y reglas o tarifas de transportistas."
       },
       {
-        "q": "¿Puede venir alguien hoy mismo?",
-        "a": "El servicio el mismo día puede estar disponible según el horario. Por favor, contáctanos para verificar."
+        "q": "¿Cómo se manejan los pagos del proyecto?",
+        "a": "Normalmente 50 % al inicio y 50 % al lanzamiento. También por hitos."
       },
       {
-        "q": "¿Debo estar presente durante la limpieza?",
-        "a": "No es necesario, pero recomendamos estar al principio o al final para hablar sobre detalles importantes."
-      },
-      {
-        "q": "¿Debo proporcionar los productos de limpieza?",
-        "a": "¡Es opcional! La mayoría de los profesionales llevan sus propios productos. Si tienes preferencias (por ejemplo, sin cloro o productos orgánicos), menciónalo en tu solicitud."
-      },
-      {
-        "q": "¿Cuál es la diferencia entre una limpieza profunda y una estándar?",
-        "a": "La limpieza estándar es mantenimiento regular. La limpieza profunda es más detallada y cubre áreas difíciles como debajo de los electrodomésticos o detrás de los muebles."
-      },
-      {
-        "q": "¿Cuánto tiempo tarda la limpieza de alfombras?",
-        "a": "Generalmente toma entre 1 y 3 horas por habitación. El tiempo de secado varía entre 6 y 12 horas y no está incluido en la duración del servicio."
+        "q": "¿Ofrecen mantenimiento tras el lanzamiento?",
+        "a": "Sí. Planes de cuidado con monitoreo, updates y mejoras."
       }
     ]
   },
   "secondaryCTA": {
-    "title1": "Haz que tu hogar",
-    "title2": "Brille",
-    "description": "Limpieza profesional que se adapta a tu horario y deja tu espacio impecable — a un precio justo.",
-    "button": "Agendar limpieza hoy"
+    "title1": "¿Listo para",
+    "title2": "lanzar?",
+    "description": "Construyamos un sitio o tienda moderna orientada a tus metas. Consulta gratuita.",
+    "button": "Iniciar Proyecto"
   },
   "footer": {
-    "subheading": "Ofrecemos servicios de limpieza confiables y profesionales para tu hogar u oficina.",
+    "subheading": "Sitios web y tiendas online con Next.js, Tailwind, Express y Shopify.",
     "quickLinksTitle": "Enlaces Rápidos",
     "addressLabel": "Dirección",
     "hoursLabel": "Horario",
-    "emailLabel": "Correo Electrónico",
+    "emailLabel": "Correo",
     "phoneLabel": "Teléfono",
     "contactTitle": "Contáctanos",
     "copyright": "Todos los derechos reservados.",
-    "hours": "Lunes a Domingo: Total disponibilidad"
+    "hours": "Lun–Vie: 9am–6pm ET"
   },
   "checkout": {
-    "title": "Pagar ahora",
+    "title": "Pagar",
     "description": "Revisa tu orden antes de completar el pago.",
     "product": "Producto",
     "quantity": "Cantidad",
     "total": "Total",
-    "pay": "Proceder al pago"
+    "pay": "Proceder al Pago"
   },
   "success": {
-    "title": "Pago exitoso",
-    "message": "Gracias por tu compra. Se ha recibido tu pago correctamente.",
-    "continue": "Volver al inicio"
+    "title": "Pago Exitoso",
+    "message": "Gracias por tu compra. Hemos recibido tu pago.",
+    "continue": "Volver al Inicio"
   },
   "error": {
-    "title": "Error en el pago",
-    "message": "Hubo un problema al procesar tu pago. Inténtalo nuevamente.",
+    "title": "Error de Pago",
+    "message": "Hubo un problema procesando tu pago. Intenta nuevamente.",
     "retry": "Reintentar",
     "home": "Inicio"
   }

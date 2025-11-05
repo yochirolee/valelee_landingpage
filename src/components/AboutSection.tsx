@@ -19,64 +19,73 @@ type Dict = {
   about: About
 }
 
-type Props = {
-  dict: Dict
-}
-
-export default function AboutWithStats({ dict }: Props) {
-  const about = dict.about
-  const stats = about.stats
+export default function AboutSection({ dict }: { dict: Dict }) {
+  const { about } = dict
 
   return (
-    <div id="about" className="relative isolate overflow-hidden py-24 sm:py-32"
-    style={{
-      backgroundImage: `
-        linear-gradient(135deg, rgba(28,168,227,0.7) 0%, rgba(0,120,160,0.7) 100%),
-        url('/cleaningservices.jpg')
-      `,
-      backgroundSize: 'auto 100%', // ancho automático, altura 100% para no estirar demasiado
-      backgroundPosition: 'right bottom',
-      backgroundRepeat: 'no-repeat',
-      minHeight: '600px',
-    }}
-  >
-    <style jsx>{`
-      @media (max-width: 640px) {
-        div#about {
-          backgroundPosition: right bottom !important;
-          backgroundSize: 'contain' !important;
-          minHeight: 400px !important;
-        }
-      }
-    `}</style>
-      {/* Fondos decorativos (sin cambios) */}
+    <section id="about" className="relative isolate overflow-hidden py-24 sm:py-32">
+      {/* Background image */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-10"
+      >
+        <img
+          src="/Leidy3.jpg" // pon tu imagen en /public/about-agency.jpg
+          alt=""
+          className="h-full w-full object-cover"
+          loading="lazy"
+        />
+        {/* Overlay gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-sky-500/80 to-sky-700/80" />
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.2 }}
         className="mx-auto max-w-7xl px-6 lg:px-8"
       >
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-5xl font-bold tracking-tight text-white sm:text-5xl">{about.title}</h2>
-          <p className="mt-8 text-lg font-medium text-left text-[#BEE3F8] sm:text-xl leading-relaxed">
-            {about.description}{' '}
-            <span className="font-semibold text-[#FFFFFF]">{about.description2}</span>{' '}
-            {about.description3}
+          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
+            {about.title}
+          </h2>
+
+          <p className="mt-8 text-left text-[#E6F6FE] sm:text-xl leading-relaxed">
+            {about.description}
+            <span className="font-semibold text-white"> {about.description2}</span>
+            {` ${about.description3}`}
           </p>
         </div>
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <dl className="mt-16 grid grid-cols-2 gap-10 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((stat: Stat) => (
+
+        {/* Stats */}
+        <div className="mx-auto mt-12 sm:mt-16 max-w-2xl lg:mx-0 lg:max-w-none">
+          <dl
+            className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-4"
+            aria-label="Key results and experience"
+          >
+            {about.stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse gap-1">
-                <dt className="text-base font-medium text-[#BEE3F8]">{stat.name}</dt>
-                <dd className="text-4xl font-extrabold tracking-tight text-[#E9F8FD]">{stat.value}</dd>
+                <dt className="text-base font-medium text-sky-100/90">{stat.name}</dt>
+                <dd className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+                  {stat.value}
+                </dd>
               </div>
             ))}
           </dl>
         </div>
+
+        {/* Contact band (opcional) */}
+        <div className="mt-10 sm:mt-14">
+          
+          <a
+            href="tel:17854519573"
+            className="ml-3 inline-flex items-center rounded-xl border border-white/70 px-5 py-3 text-white font-semibold hover:bg-white/10"
+          >
+            Let's talk now +1 (785) 451-9573
+          </a>
+        </div>
       </motion.div>
-    </div>
+    </section>
   )
 }
