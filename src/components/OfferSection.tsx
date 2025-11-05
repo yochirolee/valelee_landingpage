@@ -54,7 +54,7 @@ const images: OfferItem[] = [
     labelTone: 'light'
   },
   {
-    src: '/nika.jpeg',
+    src: '/Nika.jpeg',
     alt: 'Nika LLC — Website',
     title: 'Nika LLC Landing Page',
     href: 'https://www.nika-llc.com/en',
