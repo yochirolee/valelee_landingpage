@@ -1,12 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
-type Stat = {
-  name: string
-  value: string
-}
-
+type Stat = { name: string; value: string }
 type About = {
   title: string
   description: string
@@ -14,26 +11,22 @@ type About = {
   description3: string
   stats: Stat[]
 }
-
-type Dict = {
-  about: About
-}
+type Dict = { about: About }
 
 export default function AboutSection({ dict }: { dict: Dict }) {
   const { about } = dict
 
   return (
     <section id="about" className="relative isolate overflow-hidden py-24 sm:py-32">
-      {/* Background image */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 -z-10"
-      >
-        <img
-          src="/Leidy3.jpg" // pon tu imagen en /public/about-agency.jpg
+      {/* Background image con next/image */}
+      <div aria-hidden="true" className="absolute inset-0 -z-10">
+        <Image
+          src="/Leidy3.jpg"
           alt=""
-          className="h-full w-full object-cover"
-          loading="lazy"
+          fill
+          priority={false}
+          sizes="100vw"
+          className="object-cover"
         />
         {/* Overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-sky-500/80 to-sky-700/80" />
@@ -60,10 +53,7 @@ export default function AboutSection({ dict }: { dict: Dict }) {
 
         {/* Stats */}
         <div className="mx-auto mt-12 sm:mt-16 max-w-2xl lg:mx-0 lg:max-w-none">
-          <dl
-            className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-4"
-            aria-label="Key results and experience"
-          >
+          <dl className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-4" aria-label="Key results and experience">
             {about.stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse gap-1">
                 <dt className="text-base font-medium text-sky-100/90">{stat.name}</dt>
@@ -75,14 +65,13 @@ export default function AboutSection({ dict }: { dict: Dict }) {
           </dl>
         </div>
 
-        {/* Contact band (opcional) */}
+        {/* Contact band */}
         <div className="mt-10 sm:mt-14">
-          
           <a
             href="tel:17854519573"
             className="ml-3 inline-flex items-center rounded-xl border border-white/70 px-5 py-3 text-white font-semibold hover:bg-white/10"
           >
-            Let's talk now +1 (785) 451-9573
+            Let&apos;s talk now +1 (785) 451-9573
           </a>
         </div>
       </motion.div>
