@@ -77,9 +77,9 @@ export default function OfferSection({ dict }: { dict: Dict }) {
   return (
     <section id="gallery" className="bg-[#F6F3EE] py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1F2937] mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">
           {dict.offerSection.headline}{' '}
-          <span className="text-amber-700">{dict.offerSection.headline2}</span>
+          <span className="text-slate-900">{dict.offerSection.headline2}</span>
         </h2>
 
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">

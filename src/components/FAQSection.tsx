@@ -36,21 +36,21 @@ export default function FAQSection({ dict }: { dict: Dict }) {
 
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
         <header className="flex flex-col text-left basis-1/2">
-          <p className="inline-block font-semibold text-gray-700 mb-4">{dict.faq.label}</p>
+          <p className="inline-block font-semibold  text-slate-900 mb-4">{dict.faq.label}</p>
           <h2 className="sm:text-4xl text-3xl font-extrabold text-slate-900">
             {dict.faq.title1}{' '}
-            <span className="text-amber-700">{dict.faq.title2}</span>
+            <span className="text-slate-900">{dict.faq.title2}</span>
           </h2>
         </header>
 
-        <ul className="basis-1/2 divide-y divide-[#1CA8E3]/50" role="list">
+        <ul className="basis-1/2 divide-y divide-[#E4DFB5]/50" role="list">
           {faqs.map((faq: FAQ, index: number) => {
             const isOpen = activeIndex === index
             const contentId = `faq-panel-${index}`
             const buttonId = `faq-button-${index}`
 
             return (
-              <li key={index} className={index === 0 ? 'border-t border-[#1CA8E3]' : ''}>
+              <li key={index} className={index === 0 ? 'border-t border-[#E4DFB5]' : ''}>
                 <button
                   id={buttonId}
                   type="button"

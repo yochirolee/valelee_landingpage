@@ -42,7 +42,7 @@ export default function SecondaryCTA({ dict }: { dict: Dict }) {
           >
             <h2 id="cta-heading" className="text-4xl sm:text-5xl font-semibold tracking-tight text-slate-900">
               {dict.secondaryCTA.title1}{' '}
-              <span className="text-amber-700">{dict.secondaryCTA.title2}</span>
+              <span className="text-slate-900">{dict.secondaryCTA.title2}</span>
             </h2>
             <p className="mt-6 sm:mt-8 text-lg font-medium text-slate-700 leading-relaxed">
               {dict.secondaryCTA.description}

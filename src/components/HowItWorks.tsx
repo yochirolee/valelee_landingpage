@@ -57,10 +57,10 @@ export default function HowItWorks({ dict }: Props) {
   const containerVariants = !ENABLE_ANIMATIONS || shouldReduce ? neutral : softContainerVariants
 
   const icons = [
-    <ClipboardCheck key="clipboard" className="w-10 h-10 text-[#0078A0] mb-4" />,
-    <CalendarClock key="calendar" className="w-10 h-10 text-[#0078A0] mb-4" />,
-    <Truck key="truck" className="w-10 h-10 text-[#0078A0] mb-4" />,
-    <Rocket key="rocket" className="w-10 h-10 text-[#0078A0] mb-4" />,
+    <ClipboardCheck key="clipboard" className="w-10 h-10 text-slate-900 mb-4" />,
+    <CalendarClock key="calendar" className="w-10 h-10 text-slate-900 mb-4" />,
+    <Truck key="truck" className="w-10 h-10 text-slate-900 mb-4" />,
+    <Rocket key="rocket" className="w-10 h-10 text-slate-900 mb-4" />,
   ]
 
   return (
@@ -68,7 +68,7 @@ export default function HowItWorks({ dict }: Props) {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-10">
           {dict.howItWorks.title}{' '}
-          <span className="text-amber-700">{dict.howItWorks.title2}</span>
+          <span className="text-slate-900">{dict.howItWorks.title2}</span>
         </h2>
 
         <motion.div
@@ -85,8 +85,8 @@ export default function HowItWorks({ dict }: Props) {
               className="bg-white p-6 rounded-xl shadow-md shadow-gray-300 ring-1 ring-gray-200 hover:shadow-lg hover:shadow-gray-400 text-left transition duration-300"
             >
               {icons[idx]}
-              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-              <p className="text-gray-600">{step.description}</p>
+              <h3 className="text-xl text-slate-900 font-semibold mb-2">{step.title}</h3>
+              <p className="text-slate-900">{step.description}</p>
             </motion.div>
           ))}
         </motion.div>

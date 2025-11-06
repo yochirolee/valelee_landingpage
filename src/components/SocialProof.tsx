@@ -53,10 +53,10 @@ export default function OurServices({ dict }: { dict: Dict }) {
       <div className="container mx-auto px-6 py-10">
         <h2
           id="services-heading"
-          className="text-3xl md:text-4xl font-bold text-center text-[#1F2937] capitalize"
+          className="text-3xl md:text-4xl font-bold text-center text-slate-900 capitalize"
         >
           {dict.socialProof.title}{' '}
-          <span className="text-amber-700">{dict.socialProof.title2}</span>
+          <span className="text-slate-900">{dict.socialProof.title2}</span>
         </h2>
 
         <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-12">
@@ -70,7 +70,7 @@ export default function OurServices({ dict }: { dict: Dict }) {
               variants={cardVariants}
               aria-label={service.title}
             >
-              <span className="inline-flex rounded-full bg-white/70 p-3 text-[#0078A0] ring-1 ring-white/60">
+              <span className="inline-flex rounded-full bg-white/70 p-3 text-slate-900 ring-1 ring-white/60">
                 {icons[index % icons.length]}
               </span>
               <h3 className="mt-3 text-lg md:text-xl font-semibold text-[#374151]">

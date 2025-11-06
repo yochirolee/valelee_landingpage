@@ -21,7 +21,7 @@ export default function WhyChooseUsSection({ dict }: { dict: Dict }) {
   const icons = [UserCheck, CheckCircle, SlidersHorizontal]
 
   return (
-    <div className="overflow-hidden bg-[#0078A0] py-24 sm:py-32">
+    <div className="overflow-hidden bg-slate-800 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
@@ -47,7 +47,7 @@ export default function WhyChooseUsSection({ dict }: { dict: Dict }) {
                   const Icon = icons[index]
                   return (
                     <div key={feature.name} className="relative pl-10">
-                      <Icon className="absolute top-1 left-1 h-6 w-6 text-[#1CA8E3]" aria-hidden="true" />
+                      <Icon className="absolute top-1 left-1 h-6 w-6 text-white" aria-hidden="true" />
                       <dt className="inline font-semibold text-white">{feature.name}</dt>{' '}
                       <dd className="inline">— {feature.description}</dd>
                     </div>

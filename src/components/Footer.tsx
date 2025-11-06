@@ -75,7 +75,7 @@ const Footer: React.FC<{ dict: Dict }> = ({ dict }) => {
   const telHref = `tel:${footerDetails.telephone.replace(/[^\d+]/g, "")}`;
 
   return (
-    <footer className="bg-[#FDFBF7] text-slate-900 py-12 px-6" aria-labelledby="footer-heading">
+    <footer className="bg-[#E4DFB5] text-[#0F3557] py-12 px-6" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">Website footer</h2>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -90,22 +90,22 @@ const Footer: React.FC<{ dict: Dict }> = ({ dict }) => {
               className="object-contain"
               priority={false}
             />
-            <span className="text-xl font-semibold text-slate-900">{siteDetails.siteName}</span>
+            <span className="text-xl font-semibold text-[#0F3557]">{siteDetails.siteName}</span>
           </Link>
-          <p className="mt-3 text-base font-light max-w-sm text-slate-700">
+          <p className="mt-3 text-base font-light max-w-sm text-[#0F3557]">
             {f.subheading}
           </p>
         </div>
 
         {/* Quick Links */}
         <nav aria-label="Footer quick links">
-          <h3 className="text-xl font-semibold mb-5 text-slate-900">{f.quickLinksTitle}</h3>
+          <h3 className="text-xl font-semibold mb-5 text-[#0F3557]">{f.quickLinksTitle}</h3>
           <ul className="flex flex-col gap-3 font-light max-w-sm text-slate-700">
             {Object.keys(nav).map((key) => (
               <li key={key}>
                 <Link
                   href={navUrls[key] || "#"}
-                  className="hover:text-amber-700 transition-colors duration-200"
+                  className="hover:text-black transition-colors duration-200"
                 >
                   {nav[key]}
                 </Link>
@@ -116,14 +116,14 @@ const Footer: React.FC<{ dict: Dict }> = ({ dict }) => {
 
         {/* Contacto y redes */}
         <div id="contact">
-          <h3 className="text-xl font-semibold mb-5 text-slate-900">{f.contactTitle}</h3>
+          <h3 className="text-xl font-semibold mb-5 text-[#0F3557]">{f.contactTitle}</h3>
 
           <div className="flex flex-col gap-3 text-lg font-light max-w-sm text-slate-700">
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(footerDetails.Address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-amber-700 transition-colors text-base"
+              className="hover:text-black transition-colors text-base"
             >
               {f.addressLabel}: {footerDetails.Address}
             </a>
@@ -132,11 +132,11 @@ const Footer: React.FC<{ dict: Dict }> = ({ dict }) => {
               {f.hoursLabel}: {f.hours}
             </span>
 
-            <a href={`mailto:${footerDetails.email}`} className="hover:text-amber-700 transition-colors text-base">
+            <a href={`mailto:${footerDetails.email}`} className="hover:text-black transition-colors text-base">
               {f.emailLabel}: {footerDetails.email}
             </a>
 
-            <a href={telHref} className="hover:text-amber-700 transition-colors text-base">
+            <a href={telHref} className="hover:text-black transition-colors text-base">
               {f.phoneLabel}: {footerDetails.telephone}
             </a>
           </div>
@@ -161,7 +161,7 @@ const Footer: React.FC<{ dict: Dict }> = ({ dict }) => {
         </div>
       </div>
 
-      <div className="mt-12 text-center text-sm text-slate-500 leading-relaxed">
+      <div className="mt-12 text-center text-sm text-[#0F3557] leading-relaxed">
         &copy; {new Date().getFullYear()} {siteDetails.siteName}. {f.copyright}
       </div>
     </footer>

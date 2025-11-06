@@ -29,7 +29,7 @@ export default function AboutSection({ dict }: { dict: Dict }) {
           className="object-cover"
         />
         {/* Overlay gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-sky-500/80 to-sky-700/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#E4DFB5]/30 to-[#E4DFB5]/50" />
       </div>
 
       <motion.div
