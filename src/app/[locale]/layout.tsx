@@ -161,9 +161,9 @@ export default async function LocaleLayout({
     url,
     logo: `${SITE_URL}${LOGO_URL}`,
     sameAs: [
-      "https://www.instagram.com/tu-cuenta",
+      "https://www.instagram.com/valelee",
       "https://www.linkedin.com/company/valelee",
-      "https://www.facebook.com/tu-pagina",
+      "https://www.facebook.com/valelee",
     ],
   };
 
