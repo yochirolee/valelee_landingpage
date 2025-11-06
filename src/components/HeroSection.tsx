@@ -209,7 +209,7 @@ export default function HeroSection({ dict }: { dict: Dict }) {
                       </p>
                       <div className="mt-6 sm:mt-8">
                         <a
-                          href="tel:17854519573"
+                          href="tel:17864509223"
                           className="inline-flex items-center rounded-md bg-amber-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-amber-700"
                         >
                           {dict.hero.quote}
