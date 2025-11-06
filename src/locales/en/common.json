@@ -1,16 +1,16 @@
 {
   "nav": {
     "work": "Our Work",
-    "services": "Our Services",
+    "services": "Services",
     "about": "About Us",
     "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Web design and online stores that convert.",
-    "subtext": "We build fast, secure, SEO-optimized websites and e-commerce tailored to your business goals.",
+    "headline": "Shopify stores, landing pages, and websites that convert.",
+    "subtext": "We design and build fast, secure, SEO-optimized websites and online stores with Next.js and Shopify—tailored to your goals and built for growth.",
     "quote": "Book a Free Consult",
-    "view": "Discover Our Services"
+    "view": "Explore Our Services"
   },
   "offerSection": {
     "headline": "Trusted",
@@ -22,50 +22,50 @@
     "services": [
       {
         "title": "Next.js Websites",
-        "description": "High-performance, SEO-ready websites with modern UI and clean code."
+        "description": "High-performance, SEO-ready websites with semantic structure, modern UI, and clean code."
       },
       {
         "title": "Shopify Stores",
-        "description": "Theme setup/customization, payments, shipping, taxes, and apps."
+        "description": "Theme design, product setup, payments, shipping, taxes, and essential apps—ready to sell."
       },
       {
         "title": "Express Backends & APIs",
-        "description": "Secure REST APIs with JWT, PostgreSQL schemas, and admin tools."
+        "description": "Secure REST APIs with JWT, PostgreSQL schemas, admin tools, and automation workflows."
       },
       {
         "title": "Payments Integration",
-        "description": "Stripe, BMSPay, PayPal (optional), receipts & notifications."
+        "description": "Stripe, BMSPay, and PayPal integrations with receipts, webhooks, and notifications."
       },
       {
-        "title": "Internationalization",
-        "description": "Bilingual content (EN/ES), Shopify Markets, and localized SEO."
+        "title": "Internationalization (EN/ES)",
+        "description": "Bilingual content, Shopify Markets, hreflang, and localized SEO to capture more traffic."
       },
       {
-        "title": "SEO & Speed",
-        "description": "Technical SEO, Core Web Vitals, image optimization, analytics."
+        "title": "SEO & Site Speed",
+        "description": "Technical SEO, Core Web Vitals, image/CDN optimization, schema markup, and analytics."
       },
       {
         "title": "Ongoing Care",
-        "description": "Monitoring, updates, and small improvements month over month."
+        "description": "Monitoring, security updates, content tweaks, and monthly optimization for conversions."
       }
     ]
   },
   "whyChooseUs": {
     "title": "Why Choose Us?",
-    "headline": "Performance, Clarity, and Results",
-    "description": "We build fast, maintainable sites and stores with a modern stack. Clear scope, predictable delivery, and measurable outcomes.",
+    "headline": "Performance, SEO, and measurable results",
+    "description": "We build conversion-focused Shopify stores, landing pages, and websites with a modern stack (Next.js, Tailwind, Express). We prioritize speed, search visibility, and a clear UX to drive revenue.",
     "features": [
       {
         "name": "Performance-first",
-        "description": "Lighthouse 90+, Core Web Vitals, caching, and image pipelines."
+        "description": "Core Web Vitals, Lighthouse 90+, smart caching, and optimized media pipelines."
       },
       {
         "name": "Conversion-oriented",
-        "description": "Clean UX, clear CTAs, analytics, and A/B testing readiness."
+        "description": "Information architecture, clear CTAs, analytics, and A/B testing readiness."
       },
       {
         "name": "Maintainable by design",
-        "description": "Modular code, documentation, and handoff training for your team."
+        "description": "Modular codebase, documentation, and clean handoff to your team."
       }
     ]
   },
@@ -75,19 +75,19 @@
     "steps": [
       {
         "title": "1. Discovery",
-        "description": "Goals, scope, timeline, and a fixed proposal."
+        "description": "Goals, scope, timelines, and a fixed proposal with SEO foundations."
       },
       {
         "title": "2. Prototype",
-        "description": "Wireframes and design system to align quickly."
+        "description": "Wireframes, design system, and content structure aligned to your keywords."
       },
       {
         "title": "3. Build",
-        "description": "Next.js + Tailwind + Express/Shopify with weekly check-ins."
+        "description": "Next.js + Tailwind + Express/Shopify with weekly demos and integrations."
       },
       {
         "title": "4. Launch & Care",
-        "description": "QA, SEO, analytics, handoff, and a care plan if you wish."
+        "description": "QA, on-page SEO, analytics, handoff, and a post-launch care plan."
       }
     ]
   },
@@ -95,10 +95,10 @@
     "title": "About Us",
     "description": "At ",
     "description2": "Valelee LLC",
-    "description3": " we build fast, secure, and bilingual (EN/ES) web experiences in Miami, FL. We combine Next.js, Tailwind, Express, PostgreSQL, and Shopify to launch quickly and grow sustainably. From simple websites to robust online stores and custom backends, we focus on performance, SEO, and maintainability.",
+    "description3": " we design and develop fast, secure, bilingual (EN/ES) websites, landing pages, and Shopify stores from Miami, FL. With Next.js, Tailwind, Express, PostgreSQL, and Shopify, we launch quickly, rank better, and scale sustainably. From simple sites to robust e-commerce and custom backends, we focus on performance, SEO, and maintainability.",
     "stats": [
       { "name": "Projects Launched", "value": "35+" },
-      { "name": "E-commerce Builds", "value": "20+" },
+      { "name": "E-commerce Builds", "value": "15+" },
       { "name": "Avg. LCP (Home)", "value": "≤1.8s" },
       { "name": "Stack Expertise", "value": "Next/Shopify/Express" }
     ]
@@ -109,35 +109,35 @@
     "title2": "Asked Questions",
     "questions": [
       {
-        "q": "How long does a project take?",
-        "a": "Most sites: 2–4 weeks. Shopify or custom backends: 3–6 weeks depending on scope."
+        "q": "How long does a website or Shopify project take?",
+        "a": "Most sites and landing pages: 2–4 weeks. Shopify stores or custom backends: 3–6 weeks depending on scope."
       },
       {
-        "q": "Do you provide bilingual sites?",
-        "a": "Yes. We deliver EN/ES content structure and localized SEO essentials."
+        "q": "Do you deliver bilingual sites with localized SEO?",
+        "a": "Yes. We implement EN/ES content, semantic structure, metadata, and local SEO essentials."
       },
       {
-        "q": "What about payments and shipping?",
-        "a": "We configure Stripe/BMSPay, taxes, and shipping rules or carrier rates."
+        "q": "Do you configure payments, shipping, and taxes?",
+        "a": "Yes. We set up Stripe/BMSPay/PayPal, shipping rules or carrier rates, and tax settings."
       },
       {
-        "q": "What is the payment schedule?",
-        "a": "Typically 50% upfront and 50% at launch. Milestone options available."
+        "q": "What is the project payment schedule?",
+        "a": "Typically 50% upfront and 50% at launch. Milestone-based options are available."
       },
       {
-        "q": "Can you maintain our site after launch?",
-        "a": "Yes. We offer care plans with monitoring, updates, and small improvements."
+        "q": "Do you offer maintenance after launch?",
+        "a": "Yes. Care plans with monitoring, security updates, and continuous optimization."
       }
     ]
   },
   "secondaryCTA": {
     "title1": "Ready to",
     "title2": "Launch?",
-    "description": "Let’s build a fast, modern site or store tailored to your goals. Free discovery call.",
+    "description": "Let’s build a fast, modern Shopify store or website—optimized for SEO and conversions. Free discovery call.",
     "button": "Start a Project"
   },
   "footer": {
-    "subheading": "Websites and online stores with Next.js, Tailwind, Express, and Shopify.",
+    "subheading": "Websites, landing pages, and Shopify online stores with Next.js, Tailwind, Express, and technical SEO.",
     "quickLinksTitle": "Quick Links",
     "addressLabel": "Address",
     "hoursLabel": "Business Hours",

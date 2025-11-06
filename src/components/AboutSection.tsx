@@ -44,7 +44,7 @@ export default function AboutSection({ dict }: { dict: Dict }) {
             {about.title}
           </h2>
 
-          <p className="mt-8 text-left text-[#E6F6FE] sm:text-xl leading-relaxed">
+          <p className="mt-8 text-left text-white sm:text-xl leading-relaxed">
             {about.description}
             <span className="font-semibold text-white"> {about.description2}</span>
             {` ${about.description3}`}
@@ -56,7 +56,7 @@ export default function AboutSection({ dict }: { dict: Dict }) {
           <dl className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 lg:grid-cols-4" aria-label="Key results and experience">
             {about.stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse gap-1">
-                <dt className="text-base font-medium text-sky-100/90">{stat.name}</dt>
+                <dt className="text-base font-medium text-slate-100">{stat.name}</dt>
                 <dd className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
                   {stat.value}
                 </dd>
@@ -69,7 +69,7 @@ export default function AboutSection({ dict }: { dict: Dict }) {
         <div className="mt-10 sm:mt-14">
           <a
             href="tel:17864509223"
-            className="ml-3 inline-flex items-center rounded-xl border border-white/70 px-5 py-3 text-white font-semibold hover:bg-white/10"
+            className="ml-3 inline-flex items-center rounded-xl border border-white/70 bg-white/70 px-5 py-3 text-slate-600 font-semibold hover:bg-slate-100"
           >
             Let&apos;s talk now +1 (786) 450-9223
           </a>

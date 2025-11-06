@@ -7,8 +7,8 @@
     "contact": "Contáctanos"
   },
   "hero": {
-    "headline": "Diseño web y tiendas online que venden.",
-    "subtext": "Creamos páginas web y e-commerce rápidos, seguros y optimizados para SEO, hechos a medida para tu negocio.",
+    "headline": "Diseño de sitios web y tiendas online Shopify que convierten.",
+    "subtext": "Creamos páginas web, landing pages y e-commerce en Shopify y Next.js: rápidos, seguros y optimizados para SEO y ventas, adaptados a tu negocio.",
     "quote": "Agenda una Consulta Gratis",
     "view": "Descubre Nuestros Servicios"
   },
@@ -21,51 +21,51 @@
     "title2": "Servicios",
     "services": [
       {
-        "title": "Sitios con Next.js",
-        "description": "Webs de alto rendimiento, listas para SEO y con UI moderna."
+        "title": "Sitios Web con Next.js",
+        "description": "Páginas web de alto rendimiento, Core Web Vitals y SEO técnico listos para posicionar."
       },
       {
-        "title": "Tiendas Shopify",
-        "description": "Tema, pagos, envíos, impuestos y apps listas para vender."
+        "title": "Tiendas Online en Shopify",
+        "description": "Diseño de tema, configuración de pagos, envíos e impuestos para vender desde el día uno."
       },
       {
         "title": "Backends y APIs con Express",
-        "description": "APIs seguras con JWT, PostgreSQL y paneles de administración."
+        "description": "APIs seguras con JWT y PostgreSQL, paneles de administración y automatizaciones."
       },
       {
         "title": "Integración de Pagos",
-        "description": "Stripe, BMSPay, PayPal (opcional), comprobantes y notificaciones."
+        "description": "Stripe, BMSPay y PayPal; comprobantes, notificaciones y conciliación."
       },
       {
-        "title": "Internacionalización",
-        "description": "Contenido EN/ES, Shopify Markets y SEO localizado."
+        "title": "Internacionalización EN/ES",
+        "description": "Contenido bilingüe, Shopify Markets y SEO localizado para captar más tráfico."
       },
       {
         "title": "SEO y Velocidad",
-        "description": "SEO técnico, Core Web Vitals, optimización de imágenes y analítica."
+        "description": "SEO técnico on-page, estructura semántica, optimización de imágenes y analítica."
       },
       {
-        "title": "Soporte Continuo",
-        "description": "Monitoreo, actualizaciones y mejoras mensuales."
+        "title": "Soporte y Mantenimiento",
+        "description": "Monitoreo, actualizaciones de seguridad y mejoras mensuales orientadas a conversión."
       }
     ]
   },
   "whyChooseUs": {
     "title": "¿Por qué elegirnos?",
-    "headline": "Rendimiento, Claridad y Resultados",
-    "description": "Construimos sitios y tiendas rápidas y mantenibles con un stack moderno. Alcance claro, entregas predecibles y resultados medibles.",
+    "headline": "Rendimiento, SEO y resultados medibles",
+    "description": "Construimos sitios web, landing pages y tiendas online en Shopify con un stack moderno (Next.js, Tailwind, Express). Priorizamos velocidad, posicionamiento SEO y una UX clara para aumentar conversiones.",
     "features": [
       {
         "name": "Rendimiento primero",
-        "description": "Lighthouse 90+, Core Web Vitals, caché y pipelines de imágenes."
+        "description": "Core Web Vitals, Lighthouse 90+, caché y pipeline de medios optimizado."
       },
       {
         "name": "Enfoque en conversión",
-        "description": "UX clara, CTAs definidos, analítica y base para A/B testing."
+        "description": "Arquitectura de información, CTAs claros, analítica y base para A/B testing."
       },
       {
         "name": "Mantenible por diseño",
-        "description": "Código modular, documentación y handoff para tu equipo."
+        "description": "Código modular, documentación y handoff limpio para tu equipo."
       }
     ]
   },
@@ -75,19 +75,19 @@
     "steps": [
       {
         "title": "1. Descubrimiento",
-        "description": "Metas, alcance, tiempos y propuesta fija."
+        "description": "Objetivos, alcance, SEO base y propuesta cerrada con tiempos."
       },
       {
         "title": "2. Prototipo",
-        "description": "Wireframes y sistema de diseño para alinear rápido."
+        "description": "Wireframes, sistema de diseño y estructura de contenido orientada a SEO."
       },
       {
         "title": "3. Desarrollo",
-        "description": "Next.js + Tailwind + Express/Shopify con avances semanales."
+        "description": "Next.js + Tailwind + Express/Shopify, integraciones y avances semanales."
       },
       {
         "title": "4. Lanzamiento y Soporte",
-        "description": "QA, SEO, analítica, handoff y plan de cuidado si lo deseas."
+        "description": "QA, SEO on-page, analítica, handoff y plan de mantenimiento."
       }
     ]
   },
@@ -95,10 +95,10 @@
     "title": "Acerca de Nosotros",
     "description": "En ",
     "description2": "Valelee LLC",
-    "description3": " creamos experiencias web rápidas, seguras y bilingües (EN/ES) desde Miami, FL. Combinamos Next.js, Tailwind, Express, PostgreSQL y Shopify para lanzar rápido y crecer con solidez. Desde sitios simples hasta tiendas robustas y backends a medida, priorizamos rendimiento, SEO y mantenibilidad.",
+    "description3": " diseñamos y desarrollamos sitios web, landing pages y tiendas online Shopify optimizadas para SEO desde Miami, FL. Trabajamos con Next.js, Tailwind, Express y PostgreSQL para lanzar rápido, posicionar mejor y escalar con solidez. Nuestro enfoque combina rendimiento, conversión y mantenibilidad.",
     "stats": [
       { "name": "Proyectos Lanzados", "value": "35+" },
-      { "name": "Tiendas E-commerce", "value": "20+" },
+      { "name": "Tiendas E-commerce", "value": "15+" },
       { "name": "LCP promedio (Home)", "value": "≤1.8s" },
       { "name": "Stack", "value": "Next/Shopify/Express" }
     ]
@@ -109,35 +109,35 @@
     "title2": "Frecuentes",
     "questions": [
       {
-        "q": "¿Cuánto tarda un proyecto?",
-        "a": "Sitios: 2–4 semanas. Shopify o backends a medida: 3–6 semanas según alcance."
+        "q": "¿Cuánto tarda un proyecto web o Shopify?",
+        "a": "Sitios y landing pages: 2–4 semanas. Tiendas Shopify o backends a medida: 3–6 semanas según alcance."
       },
       {
-        "q": "¿Entregan sitios bilingües?",
-        "a": "Sí. Estructura EN/ES y SEO localizado esencial."
+        "q": "¿Entregan sitios bilingües y SEO localizado?",
+        "a": "Sí. Implementamos EN/ES, estructura semántica, metadatos y optimizaciones para SEO local."
       },
       {
-        "q": "¿Configuran pagos y envíos?",
-        "a": "Sí. Stripe/BMSPay, impuestos y reglas o tarifas de transportistas."
+        "q": "¿Configuran pagos, envíos e impuestos?",
+        "a": "Sí. Stripe/BMSPay/PayPal, reglas de envío y configuración fiscal acorde a tu país o estado."
       },
       {
         "q": "¿Cómo se manejan los pagos del proyecto?",
-        "a": "Normalmente 50 % al inicio y 50 % al lanzamiento. También por hitos."
+        "a": "Generalmente 50 % al inicio y 50 % al lanzamiento. También ofrecemos pagos por hitos."
       },
       {
-        "q": "¿Ofrecen mantenimiento tras el lanzamiento?",
-        "a": "Sí. Planes de cuidado con monitoreo, updates y mejoras."
+        "q": "¿Ofrecen mantenimiento y mejoras continuas?",
+        "a": "Sí. Planes de soporte con monitoreo, actualizaciones de seguridad y optimizaciones."
       }
     ]
   },
   "secondaryCTA": {
     "title1": "¿Listo para",
     "title2": "lanzar?",
-    "description": "Construyamos un sitio o tienda moderna orientada a tus metas. Consulta gratuita.",
+    "description": "Construyamos una landing page o tienda Shopify moderna, rápida y lista para SEO. Consulta gratuita.",
     "button": "Iniciar Proyecto"
   },
   "footer": {
-    "subheading": "Sitios web y tiendas online con Next.js, Tailwind, Express y Shopify.",
+    "subheading": "Páginas web, landing pages y tiendas online en Shopify con Next.js, Tailwind, Express y SEO técnico.",
     "quickLinksTitle": "Enlaces Rápidos",
     "addressLabel": "Dirección",
     "hoursLabel": "Horario",
