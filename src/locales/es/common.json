@@ -41,8 +41,8 @@
         "description": "Contenido bilingüe, Shopify Markets y SEO localizado para captar más tráfico."
       },
       {
-        "title": "SEO y Velocidad",
-        "description": "SEO técnico on-page, estructura semántica, optimización de imágenes y analítica."
+        "title": "SEO técnico, SEM y Publicidad Digital",
+        "description": "Estrategias SEO on-page y técnico, campañas SEM (Google Ads) y publicidad en redes (Meta/Instagram), con analítica y optimización continua para atraer tráfico y convertir."
       },
       {
         "title": "Soporte y Mantenimiento",
@@ -100,7 +100,7 @@
       { "name": "Proyectos Lanzados", "value": "35+" },
       { "name": "Tiendas E-commerce", "value": "15+" },
       { "name": "LCP promedio (Home)", "value": "≤1.8s" },
-      { "name": "Stack", "value": "Next/Shopify/Express" }
+      { "name": "Stack", "value": "Shopify/Express/ Next" }
     ]
   },
   "faq": {

@@ -74,7 +74,7 @@ export default function SecondaryCTA({ dict }: { dict: Dict }) {
           >
             <img
               alt="Valelee LLC — Next.js, Express y Shopify"
-              src="/call2.png"
+              src="/SEO.jpg"
               width={1824}
               height={1080}
               loading="lazy"

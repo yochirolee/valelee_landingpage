@@ -41,8 +41,8 @@
         "description": "Bilingual content, Shopify Markets, hreflang, and localized SEO to capture more traffic."
       },
       {
-        "title": "SEO & Site Speed",
-        "description": "Technical SEO, Core Web Vitals, image/CDN optimization, schema markup, and analytics."
+        "title": "Technical SEO, SEM & Digital Advertising",
+        "description": "On-page and technical SEO strategies, SEM campaigns (Google Ads), and social ads (Meta/Instagram) with analytics and ongoing optimization to drive traffic and conversions."
       },
       {
         "title": "Ongoing Care",
@@ -100,7 +100,7 @@
       { "name": "Projects Launched", "value": "35+" },
       { "name": "E-commerce Builds", "value": "15+" },
       { "name": "Avg. LCP (Home)", "value": "≤1.8s" },
-      { "name": "Stack Expertise", "value": "Next/Shopify/Express" }
+      { "name": "Stack Expertise", "value": "Shopify/Express/ Next" }
     ]
   },
   "faq": {

@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const SITE_URL = "https://valelee.com";
 const ORG_NAME = "Valelee LLC";
 const LOGO_URL = "/valelee2.png"; // en /public
-const OG_IMAGE = "/og.jpg";       // en /public (1200x630 recomendado)
+const OG_IMAGE = "/og.webp";       // en /public (1200x630 recomendado)
 
 /* ==== Viewport (mueve themeColor aquí para evitar warning) ==== */
 export const viewport: Viewport = {

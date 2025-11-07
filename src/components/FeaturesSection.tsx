@@ -67,7 +67,7 @@ export default function WhyChooseUsSection({ dict }: { dict: Dict }) {
             }}
           >
             <img
-              src="/googleanalitics.jpeg"
+              src="/googleanalitics.webp"
               alt="Resultados reales en Google Analytics: crecimiento del cliente"
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover rounded-xl"

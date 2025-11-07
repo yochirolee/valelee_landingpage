@@ -18,7 +18,7 @@ type Dict = { offerSection: OfferSectionDict }
 // Asegúrate de tener estos archivos en /public (p.ej. /public/rapidvia.webp)
 const images: OfferItem[] = [
   {
-    src: '/Henna.jpeg',
+    src: '/Henna.webp',
     alt: 'Henna Miami by Marlen Martin — Shopify Store',
     title: 'Henna Miami by Marlen Martin Online Store',
     href: 'https://henna-miami-by-marlen-martin.myshopify.com/',
@@ -27,7 +27,7 @@ const images: OfferItem[] = [
     labelTone: 'dark'
   },
   {
-    src: '/Shopctenvios.jpeg',
+    src: '/Shopctenvios.webp',
     alt: 'CTEnvios Shop — Online Store',
     title: 'CTEnvios Online Store',
     href: 'https://shop.ctenvios.com/es',
@@ -36,7 +36,7 @@ const images: OfferItem[] = [
     labelTone: 'light'
   },
   {
-    src: '/Rapidviaservices6.jpeg',
+    src: '/Rapidviaservices6.webp',
     alt: 'RapidVia Services — Website',
     title: 'RapidVia Services Landing Page',
     href: 'https://rapidviaservicesllc.com/',
@@ -45,7 +45,7 @@ const images: OfferItem[] = [
     labelTone: 'dark'
   },
   {
-    src: '/CTEnvios.jpeg',
+    src: '/CTEnvios.webp',
     alt: 'CTEnvios — Corporate Site',
     title: 'CTEnvios Landing Page',
     href: 'https://ctenvios.com/',
@@ -54,7 +54,7 @@ const images: OfferItem[] = [
     labelTone: 'light'
   },
   {
-    src: '/Nika.jpeg',
+    src: '/Nika.webp',
     alt: 'Nika LLC — Website',
     title: 'Nika LLC Landing Page',
     href: 'https://www.nika-llc.com/en',
@@ -63,7 +63,7 @@ const images: OfferItem[] = [
     labelTone: 'dark'
   },
   {
-    src: '/Caribetravelexpress.jpeg',
+    src: '/Caribetravelexpress.webp',
     alt: 'Caribe Travel Express — Services Website',
     title: 'Caribe Travel Express Landing Page',
     href: 'https://caribetravelexpressandservices.com/',

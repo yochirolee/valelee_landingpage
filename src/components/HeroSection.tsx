@@ -223,7 +223,7 @@ export default function HeroSection({ dict }: { dict: Dict }) {
                     {/* Alturas mayores en desktop para que “gane” presencia */}
                     <div className="h-[280px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[580px]">
                       <img
-                        src="/Leidyfondo.jpg"
+                        src="/hero_marketing_digital.webp"
                         alt="Valelee — websites & ecommerce"
                         className="h-full w-full object-cover"
                         style={{ objectPosition: '40% 60%' }}

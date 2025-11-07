@@ -64,7 +64,7 @@ export default function HowItWorks({ dict }: Props) {
   ]
 
   return (
-    <section className="py-20 px-4 bg-[#F6F3EE]">
+    <section className="py-20 px-4 bg-[#FDFBF7]">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-10">
           {dict.howItWorks.title}{' '}
