@@ -15,7 +15,7 @@ export type Dict = {
   offerSection: { headline: string; headline2: string; }
   socialProof: { title: string; title2: string; services: { title: string; description: string; }[] }
   whyChooseUs: { title: string; headline: string; description: string; features: { name: string; description: string; }[] }
-  howItWorks: { title: string; title2: string; steps: { title: string; description: string; }[] }
+  howItWorks: { title: string; title2: string; title3: string; steps: { title: string; description: string; }[] }
   about: { title: string; description: string; description2: string; description3: string; stats: { name: string; value: string; }[] }
   faq: { label: string; title1: string; title2: string; questions: { q: string; a: string; }[] }
   secondaryCTA: { title1: string; title2: string; description: string; button: string }
