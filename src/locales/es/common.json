@@ -1,106 +1,107 @@
 {
   "nav": {
-    "work": "Nuestro Trabajo",
+    "work": "Portafolio",
     "services": "Servicios",
-    "about": "Acerca de Nosotros",
+    "about": "Nosotros",
     "faq": "Preguntas Frecuentes",
     "contact": "Contáctanos"
   },
   "hero": {
-    "headline": "Diseño de sitios web y tiendas online Shopify que convierten.",
-    "subtext": "Creamos páginas web, landing pages y e-commerce en Shopify y Next.js: rápidos, seguros y optimizados para SEO y ventas, adaptados a tu negocio.",
+    "headline": "Impulsamos tu presencia digital con soluciones profesionales",
+    "subtext": "Creamos páginas web, tiendas online y estrategias de marketing digital diseñadas para hacer crecer tu negocio.",
     "quote": "Agenda una Consulta Gratis",
-    "view": "Descubre Nuestros Servicios"
+    "view": "Explora Nuestros Servicios"
   },
   "offerSection": {
-    "headline": "Confían en",
-    "headline2": "nosotros"
+    "headline": "Marcas y negocios que",
+    "headline2": "confían en nosotros"
   },
   "socialProof": {
-    "title": "Explora nuestros",
+    "title": "Nuestros",
     "title2": "Servicios",
     "services": [
       {
         "title": "Sitios Web con Next.js",
-        "description": "Páginas web de alto rendimiento, Core Web Vitals y SEO técnico listos para posicionar."
+        "description": "Desarrollo de sitios rápidos, modernos y optimizados para SEO con tecnología Next.js y Tailwind."
       },
       {
         "title": "Tiendas Online en Shopify",
-        "description": "Diseño de tema, configuración de pagos, envíos e impuestos para vender desde el día uno."
+        "description": "Tiendas Shopify completas: diseño, configuración de pagos, envíos, impuestos y automatizaciones."
       },
       {
         "title": "Backends y APIs con Express",
-        "description": "APIs seguras con JWT y PostgreSQL, paneles de administración y automatizaciones."
+        "description": "Desarrollo de APIs seguras con Express y PostgreSQL, ideal para proyectos personalizados y dashboards."
       },
       {
         "title": "Integración de Pagos",
-        "description": "Stripe, BMSPay y PayPal; comprobantes, notificaciones y conciliación."
+        "description": "Stripe, BMSPay y PayPal. Integración de pagos con notificaciones, comprobantes y conciliación."
       },
       {
         "title": "Internacionalización EN/ES",
-        "description": "Contenido bilingüe, Shopify Markets y SEO localizado para captar más tráfico."
+        "description": "Sitios bilingües profesionales, SEO localizado y soporte para Shopify Markets."
       },
       {
-        "title": "SEO técnico, SEM y Publicidad Digital",
-        "description": "Estrategias SEO on-page y técnico, campañas SEM (Google Ads) y publicidad en redes (Meta/Instagram), con analítica y optimización continua para atraer tráfico y convertir."
+        "title": "SEO Técnico, SEM y Publicidad Digital",
+        "description": "Posicionamiento SEO, campañas de Google Ads y publicidad en Meta para atraer tráfico y generar ventas."
       },
       {
         "title": "Soporte y Mantenimiento",
-        "description": "Monitoreo, actualizaciones de seguridad y mejoras mensuales orientadas a conversión."
+        "description": "Actualizaciones mensuales, monitoreo, seguridad y mejoras continuas orientadas a conversión."
       }
     ]
   },
   "whyChooseUs": {
-    "title": "¿Por qué elegirnos?",
-    "headline": "Rendimiento, SEO y resultados medibles",
-    "description": "Construimos sitios web, landing pages y tiendas online en Shopify con un stack moderno (Next.js, Tailwind, Express). Priorizamos velocidad, posicionamiento SEO y una UX clara para aumentar conversiones.",
+    "title": "Por qué elegirnos",
+    "headline": "Desarrollo moderno, SEO avanzado y enfoque en resultados",
+    "description": "En Valelee LLC combinamos velocidad, diseño atractivo y estrategias de marketing para ayudarte a crecer en digital. Trabajamos con un stack moderno que garantiza rendimiento, estabilidad y escalabilidad.",
     "features": [
       {
-        "name": "Rendimiento primero",
-        "description": "Core Web Vitals, Lighthouse 90+, caché y pipeline de medios optimizado."
+        "name": "Rendimiento Optimizado",
+        "description": "Core Web Vitals, carga rápida, imágenes optimizadas y experiencia fluida en móvil."
       },
       {
-        "name": "Enfoque en conversión",
-        "description": "Arquitectura de información, CTAs claros, analítica y base para A/B testing."
+        "name": "Diseño Orientado a Conversión",
+        "description": "Estructura estratégica, llamadas a la acción efectivas y analítica integrada."
       },
       {
-        "name": "Mantenible por diseño",
-        "description": "Código modular, documentación y handoff limpio para tu equipo."
+        "name": "Tecnología Escalable",
+        "description": "Código modular, documentación clara y bases sólidas para crecer sin límites."
       }
     ]
   },
   "howItWorks": {
     "title": "Cómo",
-    "title2": "Funciona",
+    "title2": "Trabajamos",
+    "title3": "Descubre cómo funciona nuestro proceso de manera rápida y sencilla.",
     "steps": [
       {
         "title": "1. Descubrimiento",
-        "description": "Objetivos, alcance, SEO base y propuesta cerrada con tiempos."
+        "description": "Analizamos tus objetivos y definimos el alcance, tiempos, SEO base y funcionalidades."
       },
       {
-        "title": "2. Prototipo",
-        "description": "Wireframes, sistema de diseño y estructura de contenido orientada a SEO."
+        "title": "2. Diseño y Prototipo",
+        "description": "Creamos wireframes, diseño visual y la estructura de contenido optimizada para SEO."
       },
       {
         "title": "3. Desarrollo",
-        "description": "Next.js + Tailwind + Express/Shopify, integraciones y avances semanales."
+        "description": "Construimos tu proyecto en Next.js, Shopify o Express con avances semanales."
       },
       {
         "title": "4. Lanzamiento y Soporte",
-        "description": "QA, SEO on-page, analítica, handoff y plan de mantenimiento."
+        "description": "QA, SEO on-page, analítica, handoff completo y planes de mantenimiento opcionales."
       }
     ]
   },
   "about": {
     "title": "Acerca de Nosotros",
-    "description": "En ",
-    "description2": "Valelee LLC",
-    "description3": " diseñamos y desarrollamos sitios web, landing pages y tiendas online Shopify optimizadas para SEO desde Miami, FL. Trabajamos con Next.js, Tailwind, Express y PostgreSQL para lanzar rápido, posicionar mejor y escalar con solidez. Nuestro enfoque combina rendimiento, conversión y mantenibilidad.",
+    "description": "En",
+    "description2": " Valelee LLC",
+    "description3": " desarrollamos sitios web profesionales, tiendas Shopify y soluciones digitales modernas desde Miami, FL. Combinamos diseño, tecnología y marketing para ayudarte a crecer con una presencia digital sólida, rápida y lista para convertir.",
     "stats": [
-      { "name": "Proyectos Lanzados", "value": "35+" },
-      { "name": "Tiendas E-commerce", "value": "15+" },
-      { "name": "LCP promedio (Home)", "value": "≤1.8s" },
-      { "name": "Stack", "value": "Shopify/Express/ Next" }
+      { "name": "Proyectos Entregados", "value": "35+" },
+      { "name": "Tiendas Shopify", "value": "15+" },
+      { "name": "Velocidad Promedio LCP", "value": "≤1.8s" },
+      { "name": "Tecnologías", "value": "Shopify / Next.js / Express" }
     ]
   },
   "faq": {
@@ -110,34 +111,34 @@
     "questions": [
       {
         "q": "¿Cuánto tarda un proyecto web o Shopify?",
-        "a": "Sitios y landing pages: 2–4 semanas. Tiendas Shopify o backends a medida: 3–6 semanas según alcance."
+        "a": "Sitios simples: 2–4 semanas. Tiendas Shopify o desarrollos a medida: 3–6 semanas según alcance."
       },
       {
-        "q": "¿Entregan sitios bilingües y SEO localizado?",
-        "a": "Sí. Implementamos EN/ES, estructura semántica, metadatos y optimizaciones para SEO local."
+        "q": "¿Pueden crear sitios bilingües?",
+        "a": "Sí. Implementamos EN/ES, SEO localizado, traducciones estructuradas e internacionalización."
       },
       {
         "q": "¿Configuran pagos, envíos e impuestos?",
-        "a": "Sí. Stripe/BMSPay/PayPal, reglas de envío y configuración fiscal acorde a tu país o estado."
+        "a": "Sí. Trabajamos con Stripe, BMSPay, PayPal, reglas de envío y configuración fiscal según tu región."
       },
       {
         "q": "¿Cómo se manejan los pagos del proyecto?",
-        "a": "Generalmente 50 % al inicio y 50 % al lanzamiento. También ofrecemos pagos por hitos."
+        "a": "Generalmente 50% al inicio y 50% al entregar. También ofrecemos pagos por hitos según el proyecto."
       },
       {
-        "q": "¿Ofrecen mantenimiento y mejoras continuas?",
-        "a": "Sí. Planes de soporte con monitoreo, actualizaciones de seguridad y optimizaciones."
+        "q": "¿Ofrecen mantenimiento continuo?",
+        "a": "Sí. Planes mensuales con optimización, actualizaciones, seguridad y soporte técnico."
       }
     ]
   },
   "secondaryCTA": {
-    "title1": "¿Listo para",
-    "title2": "lanzar?",
-    "description": "Construyamos una landing page o tienda Shopify moderna, rápida y lista para SEO. Consulta gratuita.",
+    "title1": "¿Listo para impulsar tu",
+    "title2": "presencia digital?",
+    "description": "Creamos sitios web y tiendas Shopify modernas, rápidas y optimizadas para SEO. Agenda tu consulta gratuita.",
     "button": "Iniciar Proyecto"
   },
   "footer": {
-    "subheading": "Páginas web, landing pages y tiendas online en Shopify con Next.js, Tailwind, Express y SEO técnico.",
+    "subheading": "Desarrollo web, tiendas Shopify, SEO y marketing digital con tecnología moderna desde Miami, FL.",
     "quickLinksTitle": "Enlaces Rápidos",
     "addressLabel": "Dirección",
     "hoursLabel": "Horario",
@@ -145,7 +146,7 @@
     "phoneLabel": "Teléfono",
     "contactTitle": "Contáctanos",
     "copyright": "Todos los derechos reservados.",
-    "hours": "Lun–Sab: 9am–7pm ET"
+    "hours": "Lun–Sáb: 9am–7pm ET"
   },
   "checkout": {
     "title": "Pagar",
@@ -157,12 +158,12 @@
   },
   "success": {
     "title": "Pago Exitoso",
-    "message": "Gracias por tu compra. Hemos recibido tu pago.",
+    "message": "Gracias por tu compra. Tu pago ha sido procesado correctamente.",
     "continue": "Volver al Inicio"
   },
   "error": {
-    "title": "Error de Pago",
-    "message": "Hubo un problema procesando tu pago. Intenta nuevamente.",
+    "title": "Error en el Pago",
+    "message": "Ocurrió un problema al procesar tu pago. Intenta nuevamente.",
     "retry": "Reintentar",
     "home": "Inicio"
   }

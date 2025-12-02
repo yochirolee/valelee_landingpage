@@ -187,58 +187,85 @@ export default function HeroSection({ dict }: { dict: Dict }) {
       />
 
       {/* === HERO === */}
-      <main className="relative isolate overflow-hidden pt-0">
-        <section className="bg-[#F6F3EE]">
-          {/* Aire para el header fijo */}
-          <div className="pt-1 sm:pt-1 lg:pt-1">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+<main className="relative isolate overflow-hidden pt-0">
+  <section className="bg-gradient-to-b from-[#F6F3EE] to-[#ECE8DF]">
+    
+    <div className="pt-2 sm:pt-4 lg:pt-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-28">
 
-              {/* CARD COMBINADO */}
-              <div className="overflow-hidden rounded-2xl ring-1 ring-slate-900/10 shadow-xl bg-[#E4DFB5]">
-                {/* grid asimétrico: imagen más ancha que el texto */}
-                <div className="grid gap-0 lg:grid-cols-[1fr_1.59fr]">
+        {/* CARD PREMIUM */}
+        <div className="
+          backdrop-blur-xl bg-white/70 
+          shadow-[0_8px_35px_rgba(0,0,0,0.12)]
+          border border-white/50 
+          rounded-3xl overflow-hidden
+        ">
+          <div className="grid gap-0 lg:grid-cols-[1fr_1.8fr]">
 
-                  {/* LADO TEXTO (más compacto) */}
-                  <div className="p-6 sm:p-8 lg:p-10 flex items-center">
-                    <div className="w-full max-w-xl">
-                      <h1 className="text-slate-900 text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-                        {dict.hero.headline}
-                      </h1>
-                      <p className="mt-4 sm:mt-5 text-base sm:text-lg lg:text-xl text-slate-700">
-                        {dict.hero.subtext}
-                      </p>
-                      <div className="mt-6 sm:mt-8">
-                        <a
-                          href="tel:17864509223"
-                          className="inline-flex items-center rounded-md bg-amber-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-amber-700"
-                        >
-                          {dict.hero.quote}
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+            {/* TEXTO */}
+            <div className="p-8 sm:p-12 lg:p-14 flex items-center">
+              <div className="w-full max-w-xl">
 
-                  {/* LADO IMAGEN (más grande que el texto) */}
-                  <div className="relative">
-                    {/* Alturas mayores en desktop para que “gane” presencia */}
-                    <div className="h-[280px] sm:h-[340px] md:h-[420px] lg:h-[520px] xl:h-[580px]">
-                      <img
-                        src="/hero_marketing_digital.webp"
-                        alt="Valelee — websites & ecommerce"
-                        className="h-full w-full object-cover"
-                        style={{ objectPosition: '40% 60%' }}
-                        loading="eager"
-                      />
-                    </div>
-                  </div>
+                <h1 className="
+                  text-slate-900 
+                  text-4xl sm:text-5xl lg:text-6xl 
+                  font-bold leading-[1.1]
+                ">
+                  {dict.hero.headline}
+                </h1>
 
+                <p className="
+                  mt-5 sm:mt-6 
+                  text-[17px] sm:text-lg lg:text-xl 
+                  text-slate-700/90
+                ">
+                  {dict.hero.subtext}
+                </p>
+
+                <div className="mt-7 sm:mt-9">
+                  <a
+                    href="tel:17864509223"
+                    className="
+                      inline-flex items-center gap-2
+                      px-6 py-3.5
+                      rounded-xl
+                      font-medium text-[15px]
+                      bg-[#E4DFB5] backdrop-blur-md 
+                      shadow-md border border-white/50 
+                      hover:bg-amber-700/40 transition-all
+                      text-slate-900
+                    "
+                  >
+                    <span className="font-semibold">{dict.hero.quote}</span>
+                  </a>
                 </div>
-              </div>
 
+              </div>
             </div>
+
+            {/* IMAGEN */}
+            <div className="relative">
+              <div className="h-[320px] sm:h-[420px] md:h-[520px] lg:h-[650px] xl:h-[700px]">
+                <img
+                  src="/hero_marketing_digital.webp"
+                  alt="Valelee — websites & ecommerce"
+                  className="h-full w-full object-cover object-[50%_55%] rounded-none lg:rounded-l-[40px]"
+                  loading="eager"
+                />
+
+                {/* Overlay suave */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/5 to-transparent pointer-events-none rounded-none lg:rounded-l-[40px]" />
+              </div>
+            </div>
+
           </div>
-        </section>
-      </main>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
     </div>
   )
 }

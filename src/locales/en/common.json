@@ -1,146 +1,147 @@
 {
   "nav": {
-    "work": "Our Work",
+    "work": "Portfolio",
     "services": "Services",
     "about": "About Us",
     "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Shopify stores, landing pages, and websites that convert.",
-    "subtext": "We design and build fast, secure, SEO-optimized websites and online stores with Next.js and Shopify—tailored to your goals and built for growth.",
-    "quote": "Book a Free Consult",
+    "headline": "We build your digital presence with modern solutions",
+    "subtext": "Professional websites, Shopify stores, and marketing strategies designed to grow your business.",
+    "quote": "Book a Free Consultation",
     "view": "Explore Our Services"
   },
   "offerSection": {
-    "headline": "Trusted",
-    "headline2": "by"
+    "headline": "Brands and businesses that",
+    "headline2": "trust us"
   },
   "socialProof": {
-    "title": "Explore our",
+    "title": "Our",
     "title2": "Services",
     "services": [
       {
-        "title": "Next.js Websites",
-        "description": "High-performance, SEO-ready websites with semantic structure, modern UI, and clean code."
+        "title": "Websites Built with Next.js",
+        "description": "Fast, modern and SEO-optimized websites built with Next.js and Tailwind."
       },
       {
-        "title": "Shopify Stores",
-        "description": "Theme design, product setup, payments, shipping, taxes, and essential apps—ready to sell."
+        "title": "Shopify Online Stores",
+        "description": "Complete Shopify setup: theme design, payments, shipping, taxes and automations."
       },
       {
-        "title": "Express Backends & APIs",
-        "description": "Secure REST APIs with JWT, PostgreSQL schemas, admin tools, and automation workflows."
+        "title": "Backends and APIs with Express",
+        "description": "Secure API development with Express and PostgreSQL for custom dashboards and integrations."
       },
       {
-        "title": "Payments Integration",
-        "description": "Stripe, BMSPay, and PayPal integrations with receipts, webhooks, and notifications."
+        "title": "Payment Integrations",
+        "description": "Stripe, BMSPay and PayPal. Full payment flows with receipts, notifications and reconciliation."
       },
       {
-        "title": "Internationalization (EN/ES)",
-        "description": "Bilingual content, Shopify Markets, hreflang, and localized SEO to capture more traffic."
+        "title": "English/Spanish Internationalization",
+        "description": "Professional bilingual content, localized SEO and Shopify Markets configuration."
       },
       {
         "title": "Technical SEO, SEM & Digital Advertising",
-        "description": "On-page and technical SEO strategies, SEM campaigns (Google Ads), and social ads (Meta/Instagram) with analytics and ongoing optimization to drive traffic and conversions."
+        "description": "SEO optimization, Google Ads campaigns and Meta advertising to attract traffic and generate sales."
       },
       {
-        "title": "Ongoing Care",
-        "description": "Monitoring, security updates, content tweaks, and monthly optimization for conversions."
+        "title": "Ongoing Support & Maintenance",
+        "description": "Monthly updates, performance improvements, security monitoring and continuous optimization."
       }
     ]
   },
   "whyChooseUs": {
-    "title": "Why Choose Us?",
-    "headline": "Performance, SEO, and measurable results",
-    "description": "We build conversion-focused Shopify stores, landing pages, and websites with a modern stack (Next.js, Tailwind, Express). We prioritize speed, search visibility, and a clear UX to drive revenue.",
+    "title": "Why Choose Us",
+    "headline": "Modern development, advanced SEO and measurable results",
+    "description": "At Valelee LLC, we combine design, technology and marketing to build a digital presence that converts. Our modern tech stack ensures speed, stability and long-term scalability.",
     "features": [
       {
-        "name": "Performance-first",
-        "description": "Core Web Vitals, Lighthouse 90+, smart caching, and optimized media pipelines."
+        "name": "Performance Focused",
+        "description": "Optimized Core Web Vitals, fast loading speeds and enhanced mobile experience."
       },
       {
-        "name": "Conversion-oriented",
-        "description": "Information architecture, clear CTAs, analytics, and A/B testing readiness."
+        "name": "Conversion-Driven Design",
+        "description": "Strategic layout, effective CTAs and integrated analytics for data-driven decisions."
       },
       {
-        "name": "Maintainable by design",
-        "description": "Modular codebase, documentation, and clean handoff to your team."
+        "name": "Scalable Technology",
+        "description": "Modular code, clean documentation and future-proof foundations for long-term growth."
       }
     ]
   },
   "howItWorks": {
     "title": "How",
     "title2": "It Works",
+    "title3": "Discover how our process works, quickly and easily.",
     "steps": [
       {
         "title": "1. Discovery",
-        "description": "Goals, scope, timelines, and a fixed proposal with SEO foundations."
+        "description": "We define goals, scope, base SEO requirements, features and timelines."
       },
       {
-        "title": "2. Prototype",
-        "description": "Wireframes, design system, and content structure aligned to your keywords."
+        "title": "2. Design & Prototype",
+        "description": "Wireframes, design system and SEO-optimized content structure."
       },
       {
-        "title": "3. Build",
-        "description": "Next.js + Tailwind + Express/Shopify with weekly demos and integrations."
+        "title": "3. Development",
+        "description": "We build your website or store using Next.js, Shopify or Express, with weekly progress updates."
       },
       {
-        "title": "4. Launch & Care",
-        "description": "QA, on-page SEO, analytics, handoff, and a post-launch care plan."
+        "title": "4. Launch & Support",
+        "description": "QA, on-page SEO, analytics setup, handoff and optional maintenance plans."
       }
     ]
   },
   "about": {
     "title": "About Us",
-    "description": "At ",
-    "description2": "Valelee LLC",
-    "description3": " we design and develop fast, secure, bilingual (EN/ES) websites, landing pages, and Shopify stores from Miami, FL. With Next.js, Tailwind, Express, PostgreSQL, and Shopify, we launch quickly, rank better, and scale sustainably. From simple sites to robust e-commerce and custom backends, we focus on performance, SEO, and maintainability.",
+    "description": "At",
+    "description2": " Valelee LLC",
+    "description3": " we build professional websites, landing pages and Shopify stores from Miami, FL. Our work blends design, development and digital strategy to give your business a strong, fast and conversion-ready online presence.",
     "stats": [
-      { "name": "Projects Launched", "value": "35+" },
-      { "name": "E-commerce Builds", "value": "15+" },
-      { "name": "Avg. LCP (Home)", "value": "≤1.8s" },
-      { "name": "Stack Expertise", "value": "Shopify/Express/ Next" }
+      { "name": "Projects Delivered", "value": "35+" },
+      { "name": "Shopify Stores", "value": "15+" },
+      { "name": "Average LCP Speed", "value": "≤1.8s" },
+      { "name": "Tech Stack", "value": "Shopify / Next.js / Express" }
     ]
   },
   "faq": {
-    "label": "FAQ",
-    "title1": "Frequently",
-    "title2": "Asked Questions",
+    "label": "Frequently Asked Questions",
+    "title1": "Common",
+    "title2": "Questions",
     "questions": [
       {
-        "q": "How long does a website or Shopify project take?",
-        "a": "Most sites and landing pages: 2–4 weeks. Shopify stores or custom backends: 3–6 weeks depending on scope."
+        "q": "How long does a web or Shopify project take?",
+        "a": "Simple websites: 2–4 weeks. Shopify stores or custom builds: 3–6 weeks depending on complexity."
       },
       {
-        "q": "Do you deliver bilingual sites with localized SEO?",
-        "a": "Yes. We implement EN/ES content, semantic structure, metadata, and local SEO essentials."
+        "q": "Do you create bilingual websites?",
+        "a": "Yes. We implement EN/ES, localized SEO, structured translations and internationalization."
       },
       {
-        "q": "Do you configure payments, shipping, and taxes?",
-        "a": "Yes. We set up Stripe/BMSPay/PayPal, shipping rules or carrier rates, and tax settings."
+        "q": "Do you set up payments, shipping and taxes?",
+        "a": "Yes. We configure Stripe, BMSPay, PayPal, shipping rules and tax settings based on your region."
       },
       {
-        "q": "What is the project payment schedule?",
-        "a": "Typically 50% upfront and 50% at launch. Milestone-based options are available."
+        "q": "How are project payments handled?",
+        "a": "Typically 50% upfront and 50% upon delivery. Milestone-based payments are also available."
       },
       {
-        "q": "Do you offer maintenance after launch?",
-        "a": "Yes. Care plans with monitoring, security updates, and continuous optimization."
+        "q": "Do you offer ongoing maintenance?",
+        "a": "Yes. Monthly plans include updates, optimization, security monitoring and technical support."
       }
     ]
   },
   "secondaryCTA": {
-    "title1": "Ready to",
-    "title2": "Launch?",
-    "description": "Let’s build a fast, modern Shopify store or website—optimized for SEO and conversions. Free discovery call.",
+    "title1": "Ready to boost your",
+    "title2": "digital presence?",
+    "description": "We build fast, modern and SEO-ready websites and Shopify stores. Book your free consultation.",
     "button": "Start a Project"
   },
   "footer": {
-    "subheading": "Websites, landing pages, and Shopify online stores with Next.js, Tailwind, Express, and technical SEO.",
+    "subheading": "Web development, Shopify stores, SEO and digital marketing built with modern technology from Miami, FL.",
     "quickLinksTitle": "Quick Links",
     "addressLabel": "Address",
-    "hoursLabel": "Business Hours",
+    "hoursLabel": "Hours",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "contactTitle": "Contact Us",
@@ -149,7 +150,7 @@
   },
   "checkout": {
     "title": "Checkout",
-    "description": "Review your order before completing payment.",
+    "description": "Review your order before completing your payment.",
     "product": "Product",
     "quantity": "Quantity",
     "total": "Total",
@@ -157,13 +158,13 @@
   },
   "success": {
     "title": "Payment Successful",
-    "message": "Thank you for your purchase. Your payment has been received.",
-    "continue": "Return to Home"
+    "message": "Thank you for your purchase. Your payment has been processed successfully.",
+    "continue": "Back to Home"
   },
   "error": {
     "title": "Payment Error",
-    "message": "There was a problem processing your payment. Please try again.",
-    "retry": "Try Again",
+    "message": "There was an issue processing your payment. Please try again.",
+    "retry": "Retry",
     "home": "Home"
   }
 }

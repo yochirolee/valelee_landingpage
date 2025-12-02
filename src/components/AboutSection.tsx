@@ -89,7 +89,10 @@ export default function AboutSection({ dict }: { dict: Dict }) {
             <div className="mt-10 sm:mt-12">
               <a
                 href="tel:17864509223"
-                className="inline-flex items-center rounded-xl bg-amber-600 px-5 py-3 text-sm font-semibold text-white shadow-md hover:bg-amber-700 active:bg-amber-800"
+                className="inline-flex items-center rounded-xl px-5 py-3 text-sm font-semibold bg-[#E4DFB5] backdrop-blur-md 
+                      shadow-md border border-white/50 
+                      hover:bg-amber-700/40 transition-all
+                      text-slate-900"
               >
                 Let&apos;s talk now +1 (786) 450-9223
               </a>

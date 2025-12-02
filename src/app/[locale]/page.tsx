@@ -1,13 +1,13 @@
 import { getDictionary } from '@/lib/dictionaries'
 import HeroSection from "../../components/HeroSection";
-import SocialProof from "../../components/SocialProof";
-import FeaturesSection from "../../components/FeaturesSection";
+import OurServices from "../../components/OurServices";
 import HowItWorks from "../../components/HowItWorks";
 import AboutSection from "../../components/AboutSection";
-import OfferSection from "../../components/OfferSection";
+import TrustUs from "../../components/TrustUs";
 import FAQSection from "../../components/FAQSection";
 import SecondaryCTA from "../../components/SecondaryCTA";
 import Footer from "../../components/Footer";
+import WhyChooseUsSection from '../../components/WhyChooseUsSection';
 
 export type Dict = {
   nav: { work: string; services: string; about: string; faq: string; contact: string; }
@@ -36,12 +36,12 @@ export default async function Home({
   return (
     <div className="flex flex-col min-h-screen">
       <HeroSection dict={dict} />
-      <OfferSection dict={dict} />
-      <SocialProof dict={dict} />
-      <FeaturesSection dict={dict} />
+      <OurServices dict={dict} />
+      <WhyChooseUsSection dict={dict} />
       <HowItWorks dict={dict} />
-      <AboutSection dict={dict} />
+      <TrustUs dict={dict} />
       <FAQSection dict={dict} />
+      <AboutSection dict={dict} />
       <SecondaryCTA dict={dict} />
       <Footer dict={dict} />
     </div>

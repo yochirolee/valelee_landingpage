@@ -51,13 +51,17 @@ export default function SecondaryCTA({ dict }: { dict: Dict }) {
             <div className="mt-8 sm:mt-10 flex items-center justify-center gap-3 lg:justify-start">
               <a
                 href="tel:17864509223"
-                className="rounded-md bg-amber-600 px-5 py-3 text-sm font-semibold text-white shadow-md hover:bg-amber-700 active:bg-amber-800 transition"
+                className="rounded-md px-5 py-3 text-sm font-semibold bg-[#E4DFB5] backdrop-blur-md 
+                      shadow-md border border-white/50 
+                      hover:bg-amber-700/40 transition-all
+                      text-slate-900"
               >
                 {dict.secondaryCTA.button}
               </a>
               <a
                 href="mailto:yleecruz@gmail.com"
-                className="rounded-md border border-slate-900/15 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-900/5 transition"
+                className="rounded-md border border-slate-900/15 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-amber-700/40 transition-all
+                      text-slate-900"
               >
                 Email Us
               </a>
